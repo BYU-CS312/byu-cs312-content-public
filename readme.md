@@ -13,7 +13,7 @@
 
 ## Instructors
 
-|  |  |  |
+| Instructor | Office | Office Hours |
 | --- | --- | --- |
 | **Ryan Farrell** | 2216 TMCB | By appointment |
 | **Gordon Bean** | 2252 TMCB | https://calendly.com/byu-cs-gbean/office-hours |
