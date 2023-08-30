@@ -5,7 +5,7 @@
 
 ## Quick links
 
-- [Canvas](https://canvas.byu.edu)
+- [Canvas](https://byu.instructure.com/courses/22233)
 - [Schedule](schedule.md)
 - [Homework Assignments](assignments.md)
 - [Projects](projects/project-instructions.md)
@@ -28,8 +28,8 @@ FILL ME IN
 
 ## Class Time and Place
 
-- Section 001:
-- Section 002: 
+- Section 001: 2:00-3:15pm Tu/Th **C215 ESC**
+- Section 002: 3:30-4:45pm Tu/Th **C215 ESC**
 - Section 003: 9:30-10:45am Tu/Th **B037 JFSB**
 
 **[Discord Server](discord.md)**
@@ -91,7 +91,7 @@ Projects are submitted via Gradescope. **Access Gradescope via the links provide
 ### Late Policy
 
 
-All homework assignments are due at by **9:30am** on the
+All homework assignments are due at by **8:00am** on the
  [date indicated](schedule.md). All programming assignments and design experiences 
  are due electronically by 11:59:00PM on the [date indicated](schedule.md).
 
@@ -165,6 +165,12 @@ Academic dishonesty will be grounds for failure of the course.
 It is everyone's responsibility to ensure that the grade you are assigned
 reflects your actual diligence and personal development. 
 
+### Statement on Belonging
+We are united by our common primary identity as children of God (Acts 17:29; Psalm 82:6) and our commitment to the truths of the restored gospel of Jesus Christ (BYU Mission Statement). We strive to create a community of belonging composed of students, faculty, and staff whose hearts are knit together in love (Mosiah 18:21) where:
+- All relationships reflect devout love of God and a loving, genuine concern for the welfare of our neighbor (BYU Mission Statement);
+- We value and embrace the variety of individual characteristics, life experiences and circumstances, perspectives, talents, and gifts of each member of the community and the richness and strength they bring to our community (1 Corinthians 12:12–27);
+- Our interactions create and support an environment of belonging (Ephesians 2:19); and
+- The full realization of each student’s divine potential is our central focus (BYU Mission Statement).
 
 ### Preventing & Responding to Sexual Misconduct
 

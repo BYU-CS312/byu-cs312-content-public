@@ -1,6 +1,6 @@
 
 
-| Date | Class Period & Lecture Topic | Reading (before class) | Assignments (submitted electronically by 6pm) |
+| Date | Class Period & Lecture Topic | Reading (before class) | Assignments (submitted electronically by 8am) |
 | --- | --- | --- | --- |
 | Sept 5 | 1. What is the class about and how will it work?  (Syllabus, policies, business, motivation) | Syllabus |  |
 | Sept 7 | 2. **Algorithm Essentials** (Big-O and basic arithmetic) | Chapters 0, 1 - pp. 1-15 |  |
@@ -35,4 +35,4 @@
 | Dec 12 | 26. Advanced Algorithms (Evolutionary Computation) |  | [Project6: LeetCode Problems](https://docs.google.com/document/d/1PdPCN3vfkQboSjYg-g8PrHbexOTWMvejhw2GX5L2spw/edit?usp=sharing) (DUE WEDS 4/15)  |
 | Dec 14 | Last Day of Class |  |  |
 | Dec 15 | Exam Preparation (Reading) Day |  |  |
-| Dec 16 | **Sec. 3 Final (7:00am–10:00am in B037 JFSB)** | [Study Guide](misc/final_study_guide.pdf) |
+| Dec 16 | **FINAL** Sec. 3 Final (7:00am–10:00am in B037 JFSB) | [Study Guide](misc/final_study_guide.pdf) |
