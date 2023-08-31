@@ -5,7 +5,7 @@
 
 The *convex hull* of a set *Q* of points is the smallest convex polygon *P* for which each point in *Q* is either on the boundary of *P* or in its interior. To be rigorous, a *polygon* is a piecewise-linear, closed curve in the plane. That is, it is a curve, ending on itself that is formed by a sequence of straight-line segments, called the sides of the polygon. A point joining two consecutive sides is called a *vertex* of the polygon. If the polygon is *simple*, as we shall generally assume, it does not cross itself. The set of points in the plane enclosed by a simple polygon forms the *interior* of the polygon, the set of points on the polygon itself forms its *boundary*, and the set of points surrounding the polygon forms its *exterior*. A simple polygon is *convex* if, given any two points on its boundary or in its interior, all points on the line segment drawn between them are contained in the polygon's boundary or interior.
 
-![](project2_files/image002.png) 
+![](images/image002.png) 
 
 
 ### Divide and Conquer
@@ -15,18 +15,18 @@ In the divide-and-conquer method for finding the convex hull,
  containing the rightmost ⎣n/2⎦ points.
 2. The convex hulls of the subsets *L* and *R* are computed recursively.
 
-![](project2_files/image003.png)
+![](images/image003.png)
 
 3. Then a clever method is used to combine the hulls:
 	1. To merge the left hull CH(L) and the right hull CH(R), it is necessary to find the two edges known as the upper and lower common tangents (shown in red below). A common tangent of two simple convex polygons is a line segment in the exterior of both polygons intersecting each polygon at a single vertex. If continued infinitely in either direction, the common tangent would not intersect the interior of either polygon.
 	2. The upper common tangent can be found by scanning around the left hull in a counter-clockwise direction and around the right hull in a clockwise direction. Some guidance with regard to finding the common tangents is given below; although you will need to work out some additional details. The two tangents divide each hull into two pieces. The right edges belonging to the left subset and the left edges belonging to the right subset must be deleted.
 
-![](project2_files/image005.png)
+![](images/image005.png)
 
 The remaining part of the algorithm is a solution for the base case (i.e., the leaves of your recursion). 
  In the example shown above, the final hull appears as follows:
 
-![](project2_files/image007.png)
+![](images/image007.png)
 
 Finding the upper common tangent:  
 
@@ -37,13 +37,13 @@ Finding the upper common tangent:
 	- While the edge is not upper tangent to the left, move counter-clockwise to the next point on the left hull (Hint: We want to move to the next point(s) on the left hull as long as the slope decreases)
  	- While the edge is not upper tangent to the right, move clockwise to the next point on the right hull
  
-![](project2_files/image009.png)
+![](images/image009.png)
 
 Some Other Hints:  
 
 Maintain clockwise (or counter-clockwise) ordering when merging (natural if you start that way). Note below that from one point (e.g. left-most) to each other point, clockwise order will be by decreasing slopes. 
 
-![](project2_files/image011.png)
+![](images/image011.png)
 
 Note that you can handle the two base cases (*n* = 2, and *n* = 3) by appropriately ordering those simple hulls. But, you can also have a single base case with *n* = 1, if you are careful with how you merge hulls, and this might be easier/more elegant.
 
@@ -60,12 +60,12 @@ Algorithms for some other computational geometry problems start by computing a c
 
 The problem of finding convex hulls also finds its practical applications in pattern recognition, image processing, statistics and GIS.
 
-![](project2_files/Proj2GUI.png)
+![](images/Proj2GUI.png)
 
 
 ### Framework
 
-We provide a [framework](https://github.com/BYU-CS312/byu-cs312-content-public/tree/main/projects/project2-convex-hull) in Python to get you started and allow you to focus on the primary tasks of the project. In the framework you will find:
+We provide a [framework](../project2-convex-hull) in Python to get you started and allow you to focus on the primary tasks of the project. In the framework you will find:
  
 1. A Graphical User Interface that generates a specified number of random points. The software has been built so that no two points should have the same *x* value, though there could be duplicate *y* values. This just makes life a little easier, as otherwise you would have to make sure your software properly deals with duplicate *x* value points. The GUI is provided in the file Proj2GUI.py.
 2. A hook (the "Solve" button) which calls the method that you are going to implement. If you look in the file convex\_hull.py, you will find three parts of the compute\_hull() method that you need to implement. First, you will need to sort the list of points (QPointF objects) by ascending x-value. Next you will implement the divide and conquer algorithm described above (you may create other methods and/or classes if you wish to do this). Last, you will pass a list of QLineF objects representing the segments on the convex hull to the GUI for display (see "dummy" example provided with the code).

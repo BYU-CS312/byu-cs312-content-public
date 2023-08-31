@@ -6,6 +6,17 @@ We will use Discord for class communication. This is a closed forum for class-me
 
 You can always leave the server at any time (and, in particular, when the class is over.)
 
+## Setup
+
+Once you have joined the CS 312 server, you will only have access to the "welcome" channel. 
+To get access to the other channels, please type `@ta` followed by your preffered first name and last name (e.g. `@ta Shane Reese`).
+
+The `@ta` will notify the TAs of your message. They will then set your server nickname (the name your classmates will see) to the name you provide.
+They will also add you to the other channels on the server.
+
+We also encourage you to set your avatar (the image associated with your account) to a picture of yourself.
+
+Consider this a professional chat forum. Present yourself accordingly. 
 
 ## Forum Guidelines
 

@@ -16,12 +16,12 @@ In this project you will implement Dijkstra’s algorithm to find paths through 
 
 ### Provided Framework
 
-The Python framework is found [here](https://github.com/BYU-CS312/byu-cs312-content-public/tree/main/projects/project3-network-routing). It provides: 
+The Python framework is found [here](../project3-network-routing). It provides: 
 
 1. A graphical user interface that generates a graph/network with a specified number of points, for a provided random seed
 2. A display for the graph vertices and for the subsequently computed shortest paths
 
-![](project3_files/snapshot_final_top.png)
+![](images/snapshot_final_top.png)
 
 When you hit “Generate” the framework for this project generates a random set of nodes, *V*, each with 3 randomly selected edges to other nodes. The edges are directed and the edge cost is the Euclidean distance between the nodes. Thus all nodes will have an out-degree of 3, but no predictable value for in-degree. You will be passed a graph structure which is comprised of |*V*| nodes, each with 3 edges, thus |*E*| = 3 |*V*| = O(|*V*|). The nodes have an (*x*,*y*) location and the edges include the start/end nodes and the edge length. The nodes are drawn on the display in the provided framework. You can hit “Generate” again to build a new graph (if you change the random seed). 
 
@@ -64,16 +64,16 @@ Submit a typed report in PDF format with the following information.
 	3. For Random seed 312 - Size 500, use node 2 (near the lower left) as the source and node 8 (near the upper right) as the destination, as in the third image below.
 5. [20] For different numbers of nodes (100, 1000, 10000, 100000, 1000000), compare the empirical time complexity for Array vs. Heap, and give your best estimate of the difference. As a sanity check, typical runtimes for 100,000 nodes is a few mintues for the array and a few seconds for the heap. For 1,000,000 nodes, run only the heap version and then estimate how long you might expect your array version to run based on your other results. For each number of nodes do at least 5 tests with different random seeds and average the results. Graph your results and also give a table of your raw data (data for each of the runs); in both graph and table, include your one estimated runtime (array implementation for 1,000,000 points). Discuss the results and give your best explanations of why they turned out as they did.
 
-![](project3_files/snapshot_final_20.png)
+![](images/snapshot_final_20.png)
 
-![](project3_files/snapshot_final_200.png)
+![](images/snapshot_final_200.png)
 
-![](project3_files/snapshot_final_500.png)
+![](images/snapshot_final_500.png)
 
 ---
 
 A couple of other examples of expected output...
 
-![](project3_files/snapshots_1000_example1.png)
+![](images/snapshots_1000_example1.png)
 
-![](project3_files/snapshots_1000_example2.png)
+![](images/snapshots_1000_example2.png)
