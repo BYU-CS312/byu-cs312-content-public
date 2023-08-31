@@ -3,7 +3,7 @@
 | Date | Class Period & Lecture Topic | Reading (before class) | Assignments (submitted electronically by 8am) |
 | --- | --- | --- | --- |
 | Sept 5 | 1. What is the class about and how will it work?  (Syllabus, policies, business, motivation) | Syllabus |   |
-| Sept 7 | 2. **Algorithm Essentials** (Big-O and basic arithmetic) | Chapters 0, 1 - pp. 1-15 | [Install Python](./installing-python.md) [Join Discord](./discord.md) |
+| Sept 7 | 2. **Algorithm Essentials** (Big-O and basic arithmetic) | Chapters 0, 1 - pp. 1-15 | [Install Python](./installing-python.md), [Join Discord](./discord.md) |
 | Sept 12 | 3. Algorithm Essentials (Modular arithmetic and Primality) | Chapter 1 - pp. 16-30 | [HW1](assignments.md#1) |
 | Sept 14 | 4. Algorithm Essentials (Cryptography and Euclid) | pp. 30-38 | [HW2](assignments.md#2), [Project1 Design Experience](projects/) |
 | Sept 19 | 5. **Divide and Conquer** (Multiplication, Recurrence Relations, Convex Hull) | Chapter 2 - pp. 45-50 | [HW3](assignments.md#3) |
