@@ -2,8 +2,8 @@
 
 | Date | Class Period & Lecture Topic | Reading (before class) | Assignments (submitted electronically by 8am) |
 | --- | --- | --- | --- |
-| Sept 5 | 1. What is the class about and how will it work?  (Syllabus, policies, business, motivation) | Syllabus |  |
-| Sept 7 | 2. **Algorithm Essentials** (Big-O and basic arithmetic) | Chapters 0, 1 - pp. 1-15 |  |
+| Sept 5 | 1. What is the class about and how will it work?  (Syllabus, policies, business, motivation) | Syllabus |   |
+| Sept 7 | 2. **Algorithm Essentials** (Big-O and basic arithmetic) | Chapters 0, 1 - pp. 1-15 | [Install Python](./installing-python.md) [Join Discord](./discord.md) |
 | Sept 12 | 3. Algorithm Essentials (Modular arithmetic and Primality) | Chapter 1 - pp. 16-30 | [HW1](assignments.md#1) |
 | Sept 14 | 4. Algorithm Essentials (Cryptography and Euclid) | pp. 30-38 | [HW2](assignments.md#2), [Project1 Design Experience](projects/) |
 | Sept 19 | 5. **Divide and Conquer** (Multiplication, Recurrence Relations, Convex Hull) | Chapter 2 - pp. 45-50 | [HW3](assignments.md#3) |
@@ -15,7 +15,7 @@
 | Oct 10 | 11. **Greedy Algorithms** (Minimum Spanning Trees) | Chapter 5 - pp. 127-138 | [HW9](assignments.md#9), [Project3 Design Experience](projects/)  |
 | Oct 12 |  12. Greedy Algorithms (Huffman Encoding) | pp. 138-143 | [HW10](assignments.md#10) |
 | Oct 17 | 13. Greedy Algorithms (Horn Formulas and Set Cover) | pp. 144-147 | [HW11](assignments.md#11) |
-| <td colspan=2>**Midterm (@Testing Center, October 19[8am]-21[9pm]; $5 late fee starting at 8am Friday)** </td> <td> [Study Guide](misc/midterm_study_guide.pdf) </td>
+| <td colspan=2>**Midterm (@Testing Center, October 19[8am]-21[9pm]; $5 late fee starting at 8am Friday)** </td> <td> [Study Guide](misc/midterm_study_guide.pdf) </td> |
 | Oct 19 | *No Lecture - take the midterm* |  |  |
 | Oct 24 | 15. **Dynamic Programming** (Longest Increasing Subsequence and Edit Distance) | Chapter 6 - pp. 156-164 | [HW12](assignments.md#12) |
 | Oct 26 | Dynamic Programming Continued |  | [Project3: Network Routing](projects/NetworkRouting.php) |
