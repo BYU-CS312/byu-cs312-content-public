@@ -175,8 +175,8 @@ reflects your actual diligence and personal development.
 > - Abstain from alcoholic beverages, tobacco, tea, coffee, vaping, marijuana, and other substance abuse
 > - Participate regularly in Church services
 > - Respect others, including the avoidance of profane and vulgar language
-> - Obey the law and follow campus policies, including the CES Dress and Grooming standards
-> - Encourage others in their commitment to comply with the Honor Code and Dress and Grooming standards.
+> - Obey the law and follow campus policies, including the [https://policy.byu.edu/view/church-educational-system-dress-and-grooming-principles-and-expectations](CES Dress and Grooming standards)
+> - Encourage others in their commitment to comply with the Honor Code and [https://policy.byu.edu/view/church-educational-system-dress-and-grooming-principles-and-expectations](Dress and Grooming standards).
 
 ### BYU Statement on Belonging
 
