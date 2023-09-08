@@ -35,4 +35,7 @@
 | Dec 12 | 26. Advanced Algorithms (Evolutionary Computation) |  | [Project6: LeetCode Problems](https://docs.google.com/document/d/1PdPCN3vfkQboSjYg-g8PrHbexOTWMvejhw2GX5L2spw/edit?usp=sharing) (DUE WEDS 4/15)  |
 | Dec 14 | Last Day of Class |  |  |
 | Dec 15 | Exam Preparation (Reading) Day |  |  |
-| Dec 16 | **FINAL** Sec. 3 Final (7:00am–10:00am in B037 JFSB) | [Study Guide](misc/final_study_guide.pdf) |
+| **FINAL EXAM** |   |  [Study Guide](misc/final_study_guide.pdf)  |
+| Dec 16 | **Sec. 003** 7:00am–10:00am in B037 JFSB | |
+| Dec 16 | **Sec. 002** Final 2:30pm–5:30pm in C215 ESC |  |
+| Dec 20 | **Sec. 001** Final 3:00pm–6:0pm in C215 ESC |  |
