@@ -16,7 +16,7 @@ Good writing, grammar, punctuation, etc. are extremely important because of the 
 | Assignment | Chapter | Problems |
 | --- | --- | --- |
 | <a id='1'>1</a> | 1 | [Complexity](homework/HW1.pdf) |
-| <a id='2'>2</a> | 1 | 1.7, 1.25, solve 221 mod 18 using the algorithm of Fig. 1.4; show a table with all variable values at each call level. |
+| <a id='2'>2</a> | 1 | 1.7, 1.25, solve 2^21^ mod 18 using the algorithm of Fig. 1.4; show a table with all variable values at each call level. |
 | <a id='3'>3</a> | 1 | 1.18, 1.20, 1.27 |
 | <a id='4'>4</a> | 2 | 2.4, 2.5(a-e, only find bounds using the master theorem), 2.17 |
 | <a id='5'>5</a> | 2 | 2.19, 2.23 |
