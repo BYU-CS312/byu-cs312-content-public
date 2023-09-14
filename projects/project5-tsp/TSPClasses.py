@@ -12,19 +12,14 @@ class TSPSolution:
 	def __init__( self, listOfCities):
 		self.route = listOfCities
 		self.cost = self._costOfRoute()
-		#print( [c._index for c in listOfCities] )
 
 	def _costOfRoute( self ):
 		cost = 0
-		#print('cost = ',cost)
 		last = self.route[0]
 		for city in self.route[1:]:
-			#print('cost increasing by {} for leg {} to {}'.format(last.costTo(city),last._name,city._name))
 			cost += last.costTo(city)
 			last = city
-		#print('cost increasing by {} for leg {} to {}'.format(self.route[-1].costTo(self.route[0]),self.route[-1]._name,self.route[0]._name))
 		cost += self.route[-1].costTo( self.route[0] )
-		#print('cost = ',cost)
 		return cost
 
 	def enumerateEdges( self ):
@@ -53,11 +48,6 @@ def nameForInt( num ):
 
 
 
-
-
-
-
-
 class Scenario:
 
 	HARD_MODE_FRACTION_TO_REMOVE = 0.20 # Remove 20% of the edges
@@ -80,7 +70,6 @@ class Scenario:
 
 		num = 0
 		for city in self._cities:
-			#if difficulty == "Hard":
 			city.setScenario(self)
 			city.setIndexAndName( num, nameForInt( num+1 ) )
 			num += 1
@@ -89,7 +78,6 @@ class Scenario:
 		ncities = len(self._cities)
 		self._edge_exists = ( np.ones((ncities,ncities)) - np.diag( np.ones((ncities)) ) ) > 0
 
-		#print( self._edge_exists )
 		if difficulty == "Hard":
 			self.thinEdges()
 		elif difficulty == "Hard (Deterministic)":
@@ -99,7 +87,7 @@ class Scenario:
 		return self._cities
 
 
-	def randperm( self, n ):				#isn't there a numpy function that does this and even gets called in Solver?
+	def randperm( self, n ):		
 		perm = np.arange(n)
 		for i in range(n):
 			randind = random.randint(i,n-1)
@@ -113,7 +101,6 @@ class Scenario:
 		edge_count = ncities*(ncities-1) # can't have self-edge
 		num_to_remove = np.floor(self.HARD_MODE_FRACTION_TO_REMOVE*edge_count)
 
-		#edge_exists = ( np.ones((ncities,ncities)) - np.diag( np.ones((ncities)) ) ) > 0
 		can_delete	= self._edge_exists.copy()
 
 		# Set aside a route to ensure at least one tour exists
@@ -134,8 +121,6 @@ class Scenario:
 			if self._edge_exists[src,dst] and can_delete[src,dst]:
 				self._edge_exists[src,dst] = False
 				num_to_remove -= 1
-
-		#print( self._edge_exists )
 
 
 
@@ -170,7 +155,6 @@ class City:
 		# In hard mode, remove edges; this slows down the calculation...
 		# Use this in all difficulties, it ensures INF for self-edge
 		if not self._scenario._edge_exists[self._index, other_city._index]:
-			#print( 'Edge ({},{}) doesn\'t exist'.format(self._index,other_city._index) )
 			return np.inf
 
 		# Euclidean Distance
@@ -181,8 +165,7 @@ class City:
 		if not self._scenario._difficulty == 'Easy':
 			cost += (other_city._elevation - self._elevation)
 			if cost < 0.0:
-				cost = 0.0
-		#cost *= SCALE_FACTOR
+				cost = 0.0	
 
 
 		return int(math.ceil(cost * self.MAP_SCALE))

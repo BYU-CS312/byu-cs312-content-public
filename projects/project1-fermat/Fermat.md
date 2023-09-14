@@ -4,7 +4,7 @@
 
 ## Instructions
 
-1. Download the [provided code](project1-fermat.zip) for Project 1. 
+1. Download the [provided code](../project1-fermat/assignment/) for Project 1. 
 Before you can run the provided GUI, you will need to setup [Python 3 and install PyQT5](../../installing-python.md#python) 
 1. You will need to implement the code that will be executed when the "Test Primality" button is clicked. The provided file `fermat.py` includes six functions, three of which are called from the GUI. You will need to implement five of these functions (the sixth simply passes your results back to the GUI):
 1. Code up the Fermat primality test pseudocode from Figure 1.8 of the text. You may set $k$ to any value you like (see p. 27). This value indicates how many random trials (values of $a$) are used.
@@ -38,7 +38,7 @@ $$
 which passed (still looks prime).
 
 
-Continuing the sequence, we can take yet another square root, but since we are now taking the square root of -1, we don't expect such nice 
+Continuing the sequence (purely for demonstration purposes; once we get a $-1$, we can stop the sequence knowing the number is prime), we can take yet another square root, but since we are now taking the square root of -1, we don't expect such nice 
 behavior, and indeed, we get 
 
 
