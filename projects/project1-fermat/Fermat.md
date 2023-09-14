@@ -5,7 +5,7 @@
 ## Instructions
 
 1. Download the [provided code](project1-fermat.zip) for Project 1. 
-Before you can run the provided GUI, you will need to setup [Python 3 and install PyQT5](../../miscellaneous.md#python) 
+Before you can run the provided GUI, you will need to setup [Python 3 and install PyQT5](../../installing-python.md#python) 
 1. You will need to implement the code that will be executed when the "Test Primality" button is clicked. The provided file `fermat.py` includes six functions, three of which are called from the GUI. You will need to implement five of these functions (the sixth simply passes your results back to the GUI):
 1. Code up the Fermat primality test pseudocode from Figure 1.8 of the text. You may set $k$ to any value you like (see p. 27). This value indicates how many random trials (values of $a$) are used.
 2. Implement modular exponentiation (pseudo-code in Figure 1.4 on p. 19). Your primality test should use your modular exponentiation function and should work properly for numbers as large as 1073741824.
