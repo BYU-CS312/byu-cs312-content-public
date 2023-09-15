@@ -6,7 +6,7 @@ import time
 
 
 class NetworkRoutingSolver:
-    def __init__( self):
+    def __init__( self ):
         pass
 
     def initializeNetwork( self, network ):
@@ -15,10 +15,12 @@ class NetworkRoutingSolver:
 
     def getShortestPath( self, destIndex ):
         self.dest = destIndex
+
         # TODO: RETURN THE SHORTEST PATH FOR destIndex
         #       INSTEAD OF THE DUMMY SET OF EDGES BELOW
         #       IT'S JUST AN EXAMPLE OF THE FORMAT YOU'LL 
         #       NEED TO USE
+
         path_edges = []
         total_length = 0
         node = self.network.nodes[self.source]
@@ -34,9 +36,12 @@ class NetworkRoutingSolver:
     def computeShortestPaths( self, srcIndex, use_heap=False ):
         self.source = srcIndex
         t1 = time.time()
+
         # TODO: RUN DIJKSTRA'S TO DETERMINE SHORTEST PATHS.
         #       ALSO, STORE THE RESULTS FOR THE SUBSEQUENT
         #       CALL TO getShortestPath(dest_index)
+
+
         t2 = time.time()
         return (t2-t1)
 
