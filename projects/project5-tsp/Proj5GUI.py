@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 import math
 import random
@@ -6,13 +6,22 @@ import signal
 import sys
 import time
 
-from PyQt5.QtWidgets import *
-from PyQt5.QtGui import *
-from PyQt5.QtCore import *
 
+from which_pyqt import PYQT_VER
+if PYQT_VER == 'PYQT5':
+	from PyQt5.QtWidgets import *
+	from PyQt5.QtGui import *
+	from PyQt5.QtCore import *
+elif PYQT_VER == 'PYQT4':
+	from PyQt4.QtGui import *
+	from PyQt4.QtCore import *
+elif PYQT_VER == 'PYQT6':
+	from PyQt6.QtWidgets import *
+	from PyQt6.QtGui import *
+	from PyQt6.QtCore import *
+else:
+	raise Exception('Unsupported Version of PyQt: {}'.format(PYQT_VER))
 
-#TODO: Error checking on txt boxes
-#TODO: Color strings
 
 
 # Import in the code with the actual implementation
@@ -23,7 +32,7 @@ from TSPClasses import *
 class PointLineView( QWidget ):
 	def __init__( self, status_bar, data_range ):
 		super(QWidget,self).__init__()
-		self.setMinimumSize(950,600)
+		self.setMinimumSize(600,400)
 
 		self.pointList	= {}
 		self.edgeList	= {}
@@ -44,7 +53,7 @@ class PointLineView( QWidget ):
 		if removeColors:							# allows removal of edge labels without removing node labels, for example
 			for color in removeColors:
 				if color in self.labelList:
-					del self.labelList[color]			
+					del self.labelList[color]
 		else:
 			self.labelList = {}
 		self.repaint()
@@ -54,14 +63,6 @@ class PointLineView( QWidget ):
 			self.pointList[color].extend( point_list )
 		else:
 			self.pointList[color] = point_list
-
-#	def setStartLoc( self, point ):
-#		self.start_pt = point
-#		self.repaint()
-#
-#	def setEndLoc( self, point ):
-#		self.end_pt = point
-#		self.repaint()
 
 
 	def addEdge( self, startPt, endPt, label, edgeColor, labelColor=None, xoffset=0.0 ):
@@ -78,7 +79,7 @@ class PointLineView( QWidget ):
 		else:
 			self.edgeList[edgeColor] = [edge]
 
-		midp = QPointF( (edge.x1()*0.2 + edge.x2()*0.8), 
+		midp = QPointF( (edge.x1()*0.2 + edge.x2()*0.8),
 						(edge.y1()*0.2 + edge.y2()*0.8) )
 		self.addLabel( midp, label, labelColor, xoffset=xoffset )
 
@@ -88,12 +89,9 @@ class PointLineView( QWidget ):
 		else:
 			self.labelList[labelColor] = [(point,label,xoffset)]
 
-
-
-
 	def paintEvent(self, event):
 		painter = QPainter(self)
-		painter.setRenderHint(QPainter.Antialiasing,True)
+		painter.setRenderHint(QPainter.RenderHint.Antialiasing,True)
 
 		xr = self.data_range['x']
 		yr = self.data_range['y']
@@ -150,12 +148,12 @@ class PointLineView( QWidget ):
 
 		painter.setTransform(tform)
 		font = QFont("Monospace")
-		font.setStyleHint(QFont.TypeWriter)
+		font.setStyleHint(QFont.StyleHint.TypeWriter)
 
 		R = 1.0E3
 		CITY_SIZE = 2.0 # DIAMETER
 		RECT = QRectF(-R,-R,2.0*R,2.0*R)
-		align = QTextOption( Qt.Alignment(Qt.AlignHCenter | Qt.AlignVCenter) )
+		align = QTextOption(Qt.AlignmentFlag.AlignHCenter | Qt.AlignmentFlag.AlignVCenter )
 		for color in self.labelList:
 			c = QColor(color[0],color[1],color[2])
 			painter.setPen( c )
@@ -182,7 +180,6 @@ class PointLineView( QWidget ):
 			painter.setBrush(b)
 
 
-
 class Proj5GUI( QMainWindow ):
 
 	def __init__( self ):
@@ -190,16 +187,14 @@ class Proj5GUI( QMainWindow ):
 
 		self.RED_STYLE	 = "background-color: rgb(255, 220, 220)"
 		self.PLAIN_STYLE = "background-color: rgb(255, 255, 255)"
-		self._MAX_SEED = 1000 
+		self._MAX_SEED = 1000
 
 		self._scenario = None
 		self.initUI()
 		self.solver = TSPSolver( self.view )
 		self.genParams = {'size':None,'seed':None,'diff':None}
 
-
-	   
-	def newPoints(self):		
+	def newPoints(self):
 		# TODO - ERROR CHECKING!!!!
 		seed = int(self.curSeed.text())
 		random.seed( seed )
@@ -230,8 +225,6 @@ class Proj5GUI( QMainWindow ):
 
 		self.addCities()
 
-
-
 	def addCities( self ):
 		cities = self._scenario.getCities()
 		self.view.clearEdges()
@@ -255,7 +248,7 @@ class Proj5GUI( QMainWindow ):
 		self.view.repaint()
 
 
-	def displaySolution( self ) :						# what about calling this somehow every time a new bssf is found?
+	def displaySolution( self ) :						
 		self.view.clearEdges([(64,64,255)])				# get rid of edge labels but not point labels
 		if self._solution:
 			self.addCities()
@@ -278,11 +271,10 @@ class Proj5GUI( QMainWindow ):
 		self.curSeed.setText( '{}'.format(new_seed) )
 		self.view.repaint()
 
-	def solveClicked(self):								# need to reset display??? and say "processing..." at bottom???
+	def solveClicked(self):								
 		self.solver.setupWithScenario(self._scenario)
 
 		max_time = float( self.timeLimit.text() )
-		# TODO - start on a separate thread
 		self.view.clearEdges([(64,64,255)])				# get rid of edge labels but not point labels
 		self.numSolutions.setText( '--' )
 		self.tourCost.setText( '--' )
@@ -291,8 +283,6 @@ class Proj5GUI( QMainWindow ):
 		self.totalStates.setText( '--' )
 		self.prunedStates.setText( '--' )
 		self.statusBar.showMessage('Processing...')
-		#self.view.repaint()
-		#app.processEvents()
 		solve_func = 'self.solver.'+self.ALGORITHMS[self.algDropDown.currentIndex()][1]
 		results = eval(solve_func)(time_allowance=max_time )
 		if results:
@@ -307,12 +297,10 @@ class Proj5GUI( QMainWindow ):
 				self.totalStates.setText( '{}'.format(results['total']))
 			if 'pruned' in results.keys():
 				self.prunedStates.setText( '{}'.format(results['pruned']))
-			#if self._solution:
 			self.displaySolution()
 		else:
-			print( 'GOT NULL SOLUTION BACK!!' )		#probably shouldn't ever use this...
+			print( 'GOT NULL SOLUTION BACK!!' )		
 		self.view.repaint()
-#		app.processEvents()
 
 	def checkGenInputs(self):
 		seed  = self.curSeed.text()
@@ -331,7 +319,6 @@ class Proj5GUI( QMainWindow ):
 			else:
 				self.generateButton.setEnabled(True)
 				self.solveButton.setEnabled(False)
-
 
 	def checkInputValue(self, widget, validrange):
 		assert( type(widget) == QLineEdit )
@@ -356,7 +343,7 @@ class Proj5GUI( QMainWindow ):
 			widget.setStyleSheet( '' )
 
 		return '' if retval==None else retval
-			
+
 	ALGORITHMS = [ \
 		('Default                            ','defaultRandomTour'), \
 		('Greedy','greedy'), \
@@ -399,11 +386,8 @@ class Proj5GUI( QMainWindow ):
 		self.solvedIn		= QLineEdit('--')
 		self.solvedIn.setFixedWidth(200)
 		self.maxQSize		= QLineEdit('--')
-		#self.maxQSize.setFixedWidth(100)
 		self.totalStates	= QLineEdit('--')
-		#self.totalStates.setFixedWidth(200)
 		self.prunedStates	= QLineEdit('--')
-		#self.prunedStates.setFixedWidth(200)
 
 		self.diffDropDown	= QComboBox(self)
 		self.algDropDown	= QComboBox(self)
@@ -445,7 +429,7 @@ class Proj5GUI( QMainWindow ):
 		h.addWidget( self.generateButton )
 		h.addStretch(1)
 		vbox.addLayout(h)
-		
+
 		h = QHBoxLayout()
 		h.addWidget( QLabel('Algorithm: ') )
 		h.addWidget( self.algDropDown )
@@ -510,7 +494,7 @@ class Proj5GUI( QMainWindow ):
 if __name__ == '__main__':
 	# This line allows CNTL-C in the terminal to kill the program
 	signal.signal(signal.SIGINT, signal.SIG_DFL)
-	
+
 	app = QApplication(sys.argv)
 	w = Proj5GUI()
 	sys.exit(app.exec())

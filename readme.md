@@ -22,20 +22,20 @@
 
 Office: **1156 TMCB**
 
-### Hours 
+### Hours
 
-| Time  | Monday         | Tuesday                                  | Wednesday      | Thursday                                 | Friday      | 
-|-------|----------------|------------------------------------------|----------------|------------------------------------------|------------ | 
-| 9:00  |                | McKayla (Remote), Hunter, Logan (Remote) |                | Logan (Remote), McKayla (Remote), Hunter |             | 
-| 10:00 |                | Logan (Remote)                           |                | Logan (Remote), Hunter                   |             | 
-| 11:00 | TA Meeting     | Devotional                               | Caden          | Logan (Remote), Hunter                   | Caden, Kai  | 
-| 12:00 | Juliana, Caden | Juliana                                  | Juliana, Caden | Juliana                                  | Caden, Kai  | 
-| 1:00  | Juliana, Caden | Juliana, Hunter                          | Juliana, Caden | Juliana                                  | Caden, Kai  | 
-| 2:00  | Kai            | Abel, Hunter, Kai                        | Kai            | Abel, Kai                                | Kai         | 
-| 3:00  | Kai            |                                          | Kai            | Jack                                     | Kai         | 
-| 4:00  | Abel, Kai      | Jack, Kai                                | Abel, Kai      | Jack, Kai                                | Abel        | 
-| 5:00  | Abel, Hunter   | Jack                                     | Abel, Hunter   | Jack                                     | Abel        | 
-| 6:00  | Elijah         | Elijah                                   | Elijah,Hunter  | Elijah                                   | Abel        | 
+| Time  | Monday         | Tuesday                                  | Wednesday      | Thursday                                 | Friday  | 
+|-------|----------------|------------------------------------------|----------------|------------------------------------------|-------- | 
+| 9:00  |                | McKayla (Remote), Hunter, Logan (Remote) |                | Logan (Remote), McKayla (Remote), Hunter |         | 
+| 10:00 |                | Logan (Remote)                           |                | Logan (Remote), Hunter                   |         | 
+| 11:00 | TA Meeting     | Devotional                               | Caden          | Logan (Remote), Hunter                   | Caden   | 
+| 12:00 | Juliana, Caden | Juliana                                  | Juliana, Caden | Juliana                                  | Caden   | 
+| 1:00  | Juliana, Caden | Juliana, Hunter                          | Juliana, Caden | Juliana                                  | Caden   | 
+| 2:00  | Caden          | Abel, Hunter                             | Caden          | Abel                                     | Caden   | 
+| 3:00  | Caden          | Hunter                                   | Caden          | Jack                                     | Caden   | 
+| 4:00  | Abel           | Jack                                     | Abel           | Jack                                     | Abel    | 
+| 5:00  | Abel, Hunter   | Jack                                     | Abel, Hunter   | Jack                                     | Abel    | 
+| 6:00  | Elijah         | Elijah                                   | Elijah         | Elijah                                   | Abel    | 
 | 7:00  | McKayla (Remote) | McKayla (Remote)                     | McKayla (Remote) | McKayla (Remote)                         |         |
 | 8:00  | McKayla (Remote) | McKayla (Remote)                     | McKayla (Remote) | McKayla (Remote)                         |         | 
 
@@ -178,7 +178,21 @@ Academic dishonesty will be grounds for failure of the course.
 It is everyone's responsibility to ensure that the grade you are assigned
 reflects your actual diligence and personal development. 
 
-### Statement on Belonging
+### BYU Honor Code
+
+> As faculty, administration, staff, and students voluntarily commit to conduct their lives in accordance with the principles of the gospel of Jesus Christ, they strive to maintain the highest standards in their personal conduct regarding honor, integrity, morality, and consideration of others...  
+> [Each commits to]:
+> - Maintain an Ecclesiastical Endorsement, including striving to deepen faith and maintain gospel standards
+> - Be honest
+> - Live a chaste and virtuous life, including abstaining from sexual relations outside marriage between a man and a woman. Living a chaste and virtuous life also includes abstaining from same-sex romantic behavior.
+> - Abstain from alcoholic beverages, tobacco, tea, coffee, vaping, marijuana, and other substance abuse
+> - Participate regularly in Church services
+> - Respect others, including the avoidance of profane and vulgar language
+> - Obey the law and follow campus policies, including the CES Dress and Grooming standards
+> - Encourage others in their commitment to comply with the Honor Code and Dress and Grooming standards.
+
+### BYU Statement on Belonging
+
 We are united by our common primary identity as children of God (Acts 17:29; Psalm 82:6) and our commitment to the truths of the restored gospel of Jesus Christ (BYU Mission Statement). We strive to create a community of belonging composed of students, faculty, and staff whose hearts are knit together in love (Mosiah 18:21) where:
 - All relationships reflect devout love of God and a loving, genuine concern for the welfare of our neighbor (BYU Mission Statement);
 - We value and embrace the variety of individual characteristics, life experiences and circumstances, perspectives, talents, and gifts of each member of the community and the richness and strength they bring to our community (1 Corinthians 12:12–27);
