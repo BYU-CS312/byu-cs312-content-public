@@ -22,20 +22,20 @@
 
 Office: **1156 TMCB**
 
-### Hours
+### Hours 
 
-| Time  | Monday         | Tuesday                                  | Wednesday      | Thursday                                 | Friday  | 
-|-------|----------------|------------------------------------------|----------------|------------------------------------------|-------- | 
-| 9:00  |                | McKayla (Remote), Hunter, Logan (Remote) |                | Logan (Remote), McKayla (Remote), Hunter |         | 
-| 10:00 |                | Logan (Remote)                           |                | Logan (Remote), Hunter                   |         | 
-| 11:00 | TA Meeting     | Devotional                               | Caden          | Logan (Remote), Hunter                   | Caden   | 
-| 12:00 | Juliana, Caden | Juliana                                  | Juliana, Caden | Juliana                                  | Caden   | 
-| 1:00  | Juliana, Caden | Juliana, Hunter                          | Juliana, Caden | Juliana                                  | Caden   | 
-| 2:00  | Caden          | Abel, Hunter                             | Caden          | Abel                                     | Caden   | 
-| 3:00  | Caden          | Hunter                                   | Caden          | Jack                                     | Caden   | 
-| 4:00  | Abel           | Jack                                     | Abel           | Jack                                     | Abel    | 
-| 5:00  | Abel, Hunter   | Jack                                     | Abel, Hunter   | Jack                                     | Abel    | 
-| 6:00  | Elijah         | Elijah                                   | Elijah         | Elijah                                   | Abel    | 
+| Time  | Monday         | Tuesday                                  | Wednesday      | Thursday                                 | Friday      | 
+|-------|----------------|------------------------------------------|----------------|------------------------------------------|------------ | 
+| 9:00  |                | McKayla (Remote), Hunter, Logan (Remote) |                | Logan (Remote), McKayla (Remote), Hunter |             | 
+| 10:00 |                | Logan (Remote)                           |                | Logan (Remote), Hunter                   |             | 
+| 11:00 | TA Meeting     | Devotional                               | Caden          | Logan (Remote), Hunter                   | Caden, Kai  | 
+| 12:00 | Juliana, Caden | Juliana                                  | Juliana, Caden | Juliana                                  | Caden, Kai  | 
+| 1:00  | Juliana, Caden | Juliana, Hunter                          | Juliana, Caden | Juliana                                  | Caden, Kai  | 
+| 2:00  | Kai            | Abel, Hunter, Kai                        | Kai            | Abel, Kai                                | Kai         | 
+| 3:00  | Kai            |                                          | Kai            | Jack                                     | Kai         | 
+| 4:00  | Abel, Kai      | Jack, Kai                                | Abel, Kai      | Jack, Kai                                | Abel        | 
+| 5:00  | Abel, Hunter   | Jack                                     | Abel, Hunter   | Jack                                     | Abel        | 
+| 6:00  | Elijah         | Elijah                                   | Elijah,Hunter  | Elijah                                   | Abel        | 
 | 7:00  | McKayla (Remote) | McKayla (Remote)                     | McKayla (Remote) | McKayla (Remote)                         |         |
 | 8:00  | McKayla (Remote) | McKayla (Remote)                     | McKayla (Remote) | McKayla (Remote)                         |         | 
 
