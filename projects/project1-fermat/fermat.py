@@ -4,7 +4,7 @@ import random
 def prime_test(N, k):
 	return fermat(N,k), miller_rabin(N,k)
 
-# This is main function that is connected to the Test button. You don't need to touch it.
+# You will need to implement this function and change the return value.
 def mod_exp(x, y, N): 
 	return 1
 	

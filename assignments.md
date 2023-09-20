@@ -16,17 +16,17 @@ Good writing, grammar, punctuation, etc. are extremely important because of the 
 | Assignment | Chapter | Problems |
 | --- | --- | --- |
 | <a id='1'>1</a> | 1 | [Complexity](homework/HW1.pdf) |
-| <a id='2'>2</a> | 1 | 1.7, 1.25, solve 2<sup>21</sup> mod 18 using the algorithm of Fig. 1.4; show a table with all variable values at each call level. |
-| <a id='3'>3</a> | 1 | 1.18, 1.20, 1.27 |
-| <a id='4'>4</a> | 2 | 2.4, 2.5(a-e, only find bounds using the master theorem), 2.17 |
-| <a id='5'>5</a> | 2 | 2.19, 2.23 |
-| <a id='6'>6</a> | 3 | 3.1, 3.2 (Show DFS forest and all edges in forest) |
-| <a id='7'>7</a> | 3 | 3.3, 3.4 |
-| <a id='8'>8</a> | 4 | 4.1 |
-| <a id='9'>9</a> | 4 | 4.2 (for consistency, use distances from the previous column, remember to start from node S) |
-| <a id='10'>10</a> | 5 | 5.2 (for b do not use path compression, and if there is a tie in rank when doing union, make the first alphabetical node the root) |
-| <a id='11'>11</a> | 5 | 5.13, 5.14 |
-| <a id='12'>12</a> | 5 | 5.26, 5.28 |
+| <a id='2'>2</a> | 1 | 1.7 (3), 1.25 (2), solve 2<sup>21</sup> mod 18 using the algorithm of Fig. 1.4; show a table with all variable values at each call level (5) |
+| <a id='3'>3</a> | 1 | 1.18 (2), 1.20 (5), 1.27 (3) |
+| <a id='4'>4</a> | 2 | 2.4 (3), 2.5(a-e, only find bounds using the master theorem) (5), 2.17 (2) |
+| <a id='5'>5</a> | 2 | 2.19 (5), 2.23 (5) |
+| <a id='6'>6</a> | 3 | 3.1 (4), 3.2 (6) (Show DFS forest and all edges in forest) |
+| <a id='7'>7</a> | 3 | 3.3 (4), 3.4 (6) |
+| <a id='8'>8</a> | 4 | 4.1 (10) |
+| <a id='9'>9</a> | 4 | 4.2 (10) (for consistency, use distances from the previous column, remember to start from node S) |
+| <a id='10'>10</a> | 5 | 5.2 (10) (for b do not use path compression, and if there is a tie in rank when doing union, make the first alphabetical node the root) |
+| <a id='11'>11</a> | 5 | 5.13 (5), 5.14 (5) |
+| <a id='12'>12</a> | 5 | 5.26 (5), 5.28 (5) |
 | <a id='13'>13</a> | 6 | 6.1 |
 | <a id='14'>14</a> | 6 | [Gene and Knapsack](homework/GeneKnap.pdf) |
 | <a id='15'>15</a> | 6 | [Chain Matrix and All Paths](homework/MM.pdf) |
