@@ -16,7 +16,7 @@ In this project you will implement Dijkstra’s algorithm to find paths through 
 
 ### Provided Framework
 
-The Python framework is found [here](../project3-network-routing). It provides: 
+The Python framework is found [here](../project3-network-routing/project3-network-routing.zip). It provides: 
 
 1. A graphical user interface that generates a graph/network with a specified number of points, for a provided random seed
 2. A display for the graph vertices and for the subsequently computed shortest paths

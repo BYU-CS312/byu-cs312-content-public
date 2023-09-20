@@ -26,7 +26,7 @@ We cover branch and bound, as well as B&B solutions to the TSP, in detail in the
 
 ### Provided Framework
 
-We provide a  [framework](../project5-tsp/assignment/) that includes a user interface that generates a specified number of random points (the cities) on a 2-D canvas. The problems are generated based on a random seed, which you can set for debugging purposes. Clicking the "Generate Scenario" button resets the problem instance for the given "Current Seed". Clicking the "Randomize Seed" button chooses a new 3-digit random seed and updates the "Current Seed" field.
+We provide a  [framework](../project5-tsp/project5-tsp.zip/) that includes a user interface that generates a specified number of random points (the cities) on a 2-D canvas. The problems are generated based on a random seed, which you can set for debugging purposes. Clicking the "Generate Scenario" button resets the problem instance for the given "Current Seed". Clicking the "Randomize Seed" button chooses a new 3-digit random seed and updates the "Current Seed" field.
 
 You can control the problem size using the “Problem Size” field, as shown in the following figure:
 
