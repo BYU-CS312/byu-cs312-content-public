@@ -15,8 +15,8 @@
 | Oct 5 | 10. Graphs (Priority Queues and Variations on Shortest Path) | pp. 113-120 | [HW9](assignments.md#9) (due Oct 9), [Project3: Network Routing](projects/project3-network-routing/NetworkRouting.md) (design experience due Oct 10, project due Oct 26) |
 | Oct 10 | 11. **Greedy Algorithms** (Minimum Spanning Trees) | Chapter 5 - pp. 127-138 | [HW10](assignments.md#10) (due Oct 11) |
 | Oct 12 |  12. Greedy Algorithms (Huffman Encoding) | pp. 138-143 | [HW11](assignments.md#11) (due Oct 17) |
-| Oct 17 | 13. Greedy Algorithms (Horn Formulas and Set Cover) | pp. 144-147 | [HW12](assignments.md#12) (due Oct 23) |
-| <td colspan=2>**Midterm (@Testing Center, October 19[8am]-21[9pm]; $5 late fee starting at 8am Friday)** </td> <td> [Study Guide](misc/midterm_study_guide.pdf) </td> |
+| Oct 17 | **Why Consider Grad School?**  |  |  |
+| <td colspan=2>**Midterm (@Testing Center, October 19[8am]-23[5pm]; $5 late fee starting at 10am Monday)** </td> <td> [Study Guide](misc/midterm_study_guide.pdf) </td> |
 | Oct 19 | *No Lecture - take the midterm* |  |  |
 | Oct 24 | 15. **Dynamic Programming** (Longest Increasing Subsequence and Edit Distance) | Chapter 6 - pp. 156-164 | [HW13](assignments.md#13) (due Oct 30) |
 | Oct 26 | Dynamic Programming Continued |  |  |
@@ -25,15 +25,14 @@
 | Nov 7 | 18. **Linear Programming** (Introduction) | Chapter 7 - pp. 188-198 | [HW16](assignments.md#16) (due Nov 8) |
 | Nov 9 | 19. Linear Programming (Duality and Zero Sum Games) | pp. 206-213 | [HW17](assignments.md#17) (due Nov 13) |
 | Nov 14 | 20. **Intelligent Search** (Backtracking and Branch & Bound) | Chapter 9 - pp. 271-276 | [HW19](assignments.md#19) (due Nov 15) |
-| Nov 16 | 21. Intelligent Search (More Branch & Bound) Project 5 Discussion  | Chapter 9 - pp. 271-276 + [extra B&B TSP material](misc/TSPHorowitz.pdf) | [HW20](assignments.md#20) (due Nov 29) (2nd problem is extra-credit), [Project5: TSP with Branch and Bound](projects/project5-tsp/TSP.md) (design experience due Nov 28, project due Dec 7) |
+| Nov 16 | 21. Intelligent Search (More Branch & Bound) Project 5 Discussion  | Chapter 9 - pp. 271-276 + [extra B&B TSP material](misc/TSPHorowitz.pdf) | [HW20](assignments.md#20) (due Nov 29) (2nd problem is extra-credit), [Project5: TSP with Branch and Bound](projects/project5-tsp/TSP.md) (design experience due Nov 28, project due Dec 7), Project6: LeetCode Problems (due Dec 12) |
 | Nov 21 | *No Class - Friday Instruction* |  |  |
 | Nov 23 | *No Class - Thanksgiving* |  |  |
 | Nov 28 | 22. Intelligent Search (NP-completeness) | Chapter 8 pp. 232-247  |  |
 | Nov 30 | 23.  Intelligent Search (Approximation and Local Search) | Chapter 9 - pp. 276-293 | [HW21](assignments.md#21) (due Dec 4) |
-| Dec 2 | 24. Advanced Algorithms (Quantum Computation) | Chapter 10 - pp. 297-302 |  |
-| Dec 5 | **Why Consider Grad School?** |  |  |
+| Dec 5 | 24. Advanced Algorithms (Quantum Computation) | Chapter 10 - pp. 297-302 |  |
 | Dec 7 | 25. Advanced Algorithms (Randomized Algorithms) | Sec. 2.4 - Boxes on pp. 29, 56, 140 | |
-| Dec 12 | 26. Advanced Algorithms (Evolutionary Computation) |  | Project6: TBD (due Dec 12)  |
+| Dec 12 | 26. Advanced Algorithms (Evolutionary Computation) |  |   |
 | Dec 14 | Last Day of Class |  |  |
 | Dec 15 | Exam Preparation (Reading) Day |  |  |
 |  | **FINAL EXAM** |   [Study Guide](misc/final_study_guide.pdf)  |  |
