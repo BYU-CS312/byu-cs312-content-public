@@ -15,7 +15,7 @@ Good writing, grammar, punctuation, etc. are extremely important because of the 
 
 | Assignment | Chapter | Problems |
 | --- | --- | --- |
-| <a id='1'>1</a> | 1 | [Complexity](homework/HW1.pdf) |
+| <a id='1'>1</a> | 1 | [Complexity](homework/HW1.md) |
 | <a id='2'>2</a> | 1 | 1.7 (3), 1.25 (2), solve 2<sup>21</sup> mod 18 using the algorithm of Fig. 1.4; show a table with all variable values at each call level (5) |
 | <a id='3'>3</a> | 1 | 1.18 (2), 1.20 (5), 1.27 (3) |
 | <a id='4'>4</a> | 2 | 2.4 (3), 2.5(a-e, only find bounds using the master theorem) (5), 2.17 (2) |
@@ -28,14 +28,14 @@ Good writing, grammar, punctuation, etc. are extremely important because of the 
 | <a id='11'>11</a> | 5 | 5.13 (5), 5.14 (5) |
 | <a id='12'>12</a> | 5 | 5.26 (5), 5.28 (5) |
 | <a id='13'>13</a> | 6 | 6.1 |
-| <a id='14'>14</a> | 6 | [Gene and Knapsack](homework/GeneKnap.pdf) |
-| <a id='15'>15</a> | 6 | [Chain Matrix and All Paths](homework/MM.pdf) |
+| <a id='14'>14</a> | 6 | [Gene and Knapsack](homework/GeneKnap.md) |
+| <a id='15'>15</a> | 6 | [Chain Matrix and All Paths](homework/MM.md) |
 | <a id='16'>16</a> | 7 | 7.1, 7.3 |
 | <a id='17'>17</a> | 7 | 7.11, 7.13 |
-| <a id='18'>18</a> | 7 | [Linear Programming and Simplex](homework/HW18.pdf) |
-| <a id='19'>19</a> | 9 | [B&B TSP1](homework/HW19.pdf) |
-| <a id='20'>20</a> | 8 | [B&B TSP2](homework/TSP2.pdf) |
-| <a id='21'>21</a> | 9 | [Local Search](homework/Local.pdf) |
+| <strike><a id='18'>18</a></strike> | <strike>7</strike> | <strike>[Linear Programming and Simplex](homework/HW18.pdf)</strike> |
+| <a id='19'>19</a> | 9 | [B&B TSP1](homework/HW19.md) |
+| <a id='20'>20</a> | 8 | [B&B TSP2](homework/TSP2.md) |
+| <a id='21'>21</a> | 9 | [Local Search](homework/Local.md) |
 
   
 
