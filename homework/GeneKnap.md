@@ -3,20 +3,28 @@
 Show all work neatly.
 
 **Question 1 (5)**:  
-Find the optimal alignment using dynamic programming (by hand) of **ATGCC** and **TACGCA**. Use the Needleman-Wunsch cost function that you will use for the project, namely: $$c_{indel} = 5,~ c_{sub} = 1,~ c_{match} = -3$$.
+Find the optimal alignment using dynamic programming (by hand) of **ATCGT** and **AGTCG**. Use the Needleman-Wunsch cost function that you will use for the project, namely: $$c_{indel} = 5,~ c_{sub} = 1,~ c_{match} = -3$$.
 
-- Show your DP table.
-- Circle the optimal alignment cost.
-- Extract the optimal alignment(s) from the table (keep back-pointers in the table if you want).
+- Show your complete Dynamic Programming table. Include the edit distance score
+    of each cell and show the previous pointer(s) from each cell.
+- What is the Edit Distance of the 2 strings?
+- Is there more than one optimal alignment?
+- Bold the previous pointers along the optimal path from the goal cell.
+- Show the alignment of the two strings with the first above the second.
 
-**Question 2 (5)**:  
-Use dynamic programming to fill a knapsack without repetition having a weight capacity of 10 units with a load of maximum value from the following set of objects:
 
-- Weights: 1, 2, 5, 6, and 7 units
-- Values: 1, 7, 11, 21, and 31, respectively.
+**Question 2 (5)**: Knapsack with repetition
 
-Your answer should include:
+Use dynamic programming to fill a knapsack with repetition having a maximum weight capacity of 10 units with a load of maximum value from the following objects:
 
-- a table with solutions to sub-problems
-- the value of the optimal load
-- the objects to be included in the optimal load (keep back-pointers in the table if you want)
+
+| Object | Weight | Value |
+| --- | --- | --- |
+| A | 1 | 1 |
+| B | 2 | 7 |
+| C | 5 | 11 |
+| D | 6 | 21 |
+| E | 7 | 31 |
+
+Show a table giving the maximum value at each weight.
+What is the maximum value and what objects does the knapsack comprise of at this weight?
