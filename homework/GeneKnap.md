@@ -15,7 +15,7 @@ Find the optimal alignment using dynamic programming (by hand) of **ATCGT** and 
 
 **Question 2 (5)**: Knapsack with repetition
 
-Use dynamic programming to fill a knapsack with repetition having a maximum weight capacity of 10 units with a load of maximum value from the following objects:
+Use dynamic programming to fill a knapsack without repetition having a maximum weight capacity of 10 units with a load of maximum value from the following objects:
 
 
 | Object | Weight | Value |
