@@ -13,7 +13,7 @@ Find the optimal alignment using dynamic programming (by hand) of **ATCGT** and 
 - Show the alignment of the two strings with the first above the second.
 
 
-**Question 2 (5)**: Knapsack with repetition
+**Question 2 (5)**: Knapsack without repetition
 
 Use dynamic programming to fill a knapsack without repetition having a maximum weight capacity of 10 units with a load of maximum value from the following objects:
 
