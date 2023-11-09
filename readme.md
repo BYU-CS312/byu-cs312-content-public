@@ -104,7 +104,7 @@ Projects are submitted via Gradescope. **Access Gradescope via the links provide
 ### Late Policy
 
 
-All homework assignments are due at by **8:00am** on the
+All homework assignments are due at by **11:59pm** on the
  [date indicated](schedule.md). All programming assignments and design experiences 
  are due electronically by 11:59:00PM on the [date indicated](schedule.md).
 
