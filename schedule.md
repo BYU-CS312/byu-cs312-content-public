@@ -25,17 +25,19 @@
 | Nov 7 | 18. **Linear Programming** (Introduction) | Chapter 7 - pp. 188-198 | [HW16](assignments.md#16) (due Nov 8) |
 | Nov 9 | 19. Linear Programming (Duality and Zero Sum Games) | pp. 206-213 | [HW17](assignments.md#17) (due Nov 13) |
 | Nov 14 | 20. **Intelligent Search** (Backtracking and Branch & Bound) | Chapter 9 - pp. 271-276 | [HW19](assignments.md#19) (due Nov 15) |
-| Nov 16 | 21. Intelligent Search (More Branch & Bound) Project 5 Discussion  | Chapter 9 - pp. 271-276 + [extra B&B TSP material](misc/TSPHorowitz.pdf) | [HW20](assignments.md#20) (due Nov 29) (2nd problem is extra-credit), [Project5: TSP with Branch and Bound](projects/project5-tsp/TSP.md) (design experience due Nov 28, project due Dec 7), Project6: LeetCode Problems (due Dec 12) |
+| Nov 16 | 21. Intelligent Search (More Branch & Bound) Project 5 Discussion  | Chapter 9 - pp. 271-276 + [extra B&B TSP material](misc/TSPHorowitz.pdf) | [HW20](assignments.md#20) (due Nov 29) (2nd problem is extra-credit), [Project5: TSP with Branch and Bound](projects/project5-tsp/TSP.md) (design experience due Nov 28, project due Dec 7), [Project6: LeetCode Problems](projects/project6-leetcode/LeetCode.md) (Part A due Dec 11, Part B due Dec 14) |
 | Nov 21 | *No Class - Friday Instruction* |  |  |
 | Nov 23 | *No Class - Thanksgiving* |  |  |
 | Nov 28 | 22. Intelligent Search (NP-completeness) | Chapter 8 pp. 232-247  |  |
 | Nov 30 | 23.  Intelligent Search (Approximation and Local Search) | Chapter 9 - pp. 276-293 | [HW21](assignments.md#21) (due Dec 4) |
-| Dec 5 | 24. Advanced Algorithms (Quantum Computation) | Chapter 10 - pp. 297-302 |  |
-| Dec 7 | 25. Advanced Algorithms (Randomized Algorithms) | Sec. 2.4 - Boxes on pp. 29, 56, 140 | |
-| Dec 12 | 26. Advanced Algorithms (Evolutionary Computation) |  |   |
+| Dec 5 | 24. Advanced Algorithms (Randomized Algorithms) | Sec. 2.4 - Boxes on pp. 29, 56, 140 | |
+| Dec 7 | 25. Instructor's choice | | |
+| Dec 12 | In-class discussion of Project 6 solutions |  |   |
 | Dec 14 | Last Day of Class |  |  |
 | Dec 15 | Exam Preparation (Reading) Day |  |  |
 |  | **FINAL EXAM** |   [Study Guide](misc/final_study_guide.pdf)  |  |
 | Dec 16 | **Sec. 003** 7:00am–10:00am in B037 JFSB | |
 | Dec 16 | **Sec. 002** 2:30pm–5:30pm in C215 ESC |  |
 | Dec 20 | **Sec. 001** 3:00pm–6:00pm in C215 ESC |  |
+<!-- | Dec 5 | 24. Advanced Algorithms (Quantum Computation) | Chapter 10 - pp. 297-302 |  | -->
+<!-- | Dec 12 | 25. Advanced Algorithms (Evolutionary Computation) |  |   | -->
