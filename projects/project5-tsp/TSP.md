@@ -43,8 +43,8 @@ You will implement an additional algorithm (Branch and Bound) for this lab by wr
 
 ### Instructions
 
-1. Write a branch and bound algorithm (your TSP solver) to find the shortest complete simple tour through the *City* objects in the array *Cities*. You will use the reduced cost matrix for your lower bound function and “partial path” as your state space search approach. Implement your solver in the following method: *TSPSolver.branchAndBound()*.
-2. Your solver should include a time-out mechanism so that it will terminate and report the best solution so far (*BSSF*) after 60 seconds of execution time (you can use the "private" member *TSPSolver.\_time\_limit*, which is set to the default value 60 and automatically updates whenever the *Time Limit* field is edited in the application form. Note that it is not critical that you use precisely 60 seconds. Running a timer and checking the time on every iteration through your branch and bound algorithm is sufficient, if slightly imprecise. You can use timers to interrupt your search if you want to be more precise about ending exactly at 60 seconds.
+1. Write a branch and bound algorithm (your TSP solver) to find the shortest complete simple tour through the *City* objects in the array *Cities*. You will use the reduced cost matrix for your lower bound function and “partial path” as your state space search approach. Implement your solver in the following method: `TSPSolver.branchAndBound()`.
+2. Your `branchAndBound` solver should include a time-out mechanism so that it will terminate and report the best solution so far (*BSSF*) after 60 seconds of execution time (you can use the "private" member *TSPSolver.\_time\_limit*, which is set to the default value 60 and automatically updates whenever the *Time Limit* field is edited in the application form. Note that it is not critical that you use precisely 60 seconds. Running a timer and checking the time on every iteration through your branch and bound algorithm is sufficient, if slightly imprecise. You can use timers to interrupt your search if you want to be more precise about ending exactly at 60 seconds.
 3. Assign the "private" member *TSPSolver.\_bssf* to a *TSPSolution* object that contains the path you have discovered. You should be creative with your initial BSSF value as it can have a significant impact on early pruning.
 4. To display your solution, populate the results array with the cost of the discovered tour, the elapsed time that it took your to discover it and the number of intermediate solutions considered, respectively (for an example of how to do this, you can look at the default algorithm *ProbemAndSolver.defaultRandomTour()* method. When counting intermediate solutions, do not include your initial BSSF (this intermediate count will be 0 if the BSSF is optimal or time expires).
 5. For this project, the performance analysis will focus on both time and space. You will need a mechanism to report the total number of child states generated (whether they are put on the queue or not), and also the number of states pruned due to your evolving BSSF. This includes all child states generated that never get expanded, either because they are not put on the queue, pruned when dequeued, or because they never get dequeued before termination. You will also report the maximum size of the queue which is the upper bound of memory used.
@@ -55,9 +55,9 @@ You will implement an additional algorithm (Branch and Bound) for this lab by wr
 
 ### Report
 
-90 points total. The other 10 points come from your design experience.
+100 points total. The other 10 points come from your design experience. (110 points in all.)
 
-1. [30] Include your self-documenting code.
+1. [40] Include your self-documenting code.
 2. [20] Discuss the time and space complexity of your algorithm. You must demonstrate that you really understand the complexity and which parts of your program lead to that complexity. You may do this by:
 	1. Showing and summing up the complexity of each significant subsection of your code, or
 	2. Creating brief psuedocode showing the critical complexity portions, or
