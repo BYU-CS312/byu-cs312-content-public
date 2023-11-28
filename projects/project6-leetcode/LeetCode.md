@@ -44,7 +44,7 @@ This project is intended both to give you a little bit more practice and to help
 
 ## Project Description
 
-This project will consist of a set of 10 LeetCode problems of which **you will need to complete at least 6**. 
+This project will consist of a set of 12 LeetCode problems of which **you will need to complete at least 6**. 
 
 The specific problems you may choose from are:
 
@@ -58,9 +58,10 @@ The specific problems you may choose from are:
 - [279\. Perfect Squares](https://leetcode.com/problems/perfect-squares/) (Medium 53.1%)
 - [1042\. Flower Planting With No Adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent/) (Medium 51.0%)
 - [207\. Course Schedule](https://leetcode.com/problems/course-schedule/) (Medium 46.3%)
+- [406\. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) (Medium 73.2%)
+- [236\. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) (Medium 60.7%)
 
-<!-- - [406\. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) (Medium 73.2%)
-- [11\. Container with Most Water](https://leetcode.com/problems/container-with-most-water/) (Medium 54.3%) -->
+<!-- - [11\. Container with Most Water](https://leetcode.com/problems/container-with-most-water/) (Medium 54.3%) -->
 
 There are two parts to the project.
 
@@ -86,9 +87,9 @@ To facilitate this part of the project, we will be using lecture time during the
 
 If you are unable to attend class that day, you will be responsible for making time and finding other students to meet with to discuss your solutions.
 
-### Extra Credit [20 pts]
+### Extra Credit [30 pts]
 
-You may choose to solve the remaining 4 problems for 5 points of extra credit each. For the extra credit, you only need to solve the problem in LeetCode; you are not required to discuss your solution nor provide a report (though you are welcome to do so). 
+You may choose to solve the remaining 6 problems for 5 points of extra credit each. For the extra credit, you only need to solve the problem in LeetCode; you are not required to discuss your solution nor provide a report (though you are welcome to do so). 
 
 ### FAQs
 
@@ -108,7 +109,18 @@ Q4.  Does our code have to be discussed with someone in the class, or could it b
 
 A4.  Please discuss with someone else from class -- they will have solved the problem and therefore you can learn from each other’s solutions.  You’ll be helping them as well.
 
+Q5.  What if I've already done one of the problems on the specified list?
+
+A5. We've specified a list of 12 problems in hopes to provide you with alternatives, both in case you get stuck on one or if you happen to have already done some of them.  If you've already done one or more problems, please choose among the rest of them on the specified list (the TAs are familiar with these problems and we have hints for solving those).  In the event that you solve all of the problems and still need or want more to get the credit you want (whether you want the minimum 6 but have already done 7+ of them, or, if you're trying to earn extra credit by solving N total, but have already solved 12-N+1 or more)... you may select any LeetCode **medium** difficulty problems that have an acceptance rate of less than 50% and use those.  You may substitute problems *if and only if* you have completed (now or previously) all of the problems on the specified list.
+
 ### Hints
+
+<details>
+    <summary>1137. N-th Tribonacci Number</summary>
+
+HINT 1 of 1: Don’t try to solve recursively, instead try dynamic programming.
+
+</details>
 
 <details>
     <summary>1. Two Sum</summary>
@@ -119,62 +131,12 @@ HINT 2 of 2: An $O(n^2)$ solution is possible and LeetCode will accept it.  Howe
 
 </details>
 
-
-<details>
-    <summary>1137. N-th Tribonacci Number</summary>
-
-HINT 1 of 1: Don’t try to solve recursively, instead try dynamic programming.
-
-</details>
-
 <details>
     <summary>39. Combination Sum</summary>
 
 HINT 1 of 2: At some level, you need to generate/enumerate all of the ways you can create a given sum, using the candidate values provided (with possible duplicates of the candidates).
 
 HINT 2 of 2: For problems that are asking you to make a sum, it sometimes is helpful to keep track of what composes a partial solution and how far from the solution you are (e.g. the target minus the total of what you have so far).
-
-</details>
-
-<details>
-    <summary>120. Triangle</summary>
-
-HINT 1 of 1: If you know the minimum path lengths to all elements at one level, does that help you determine the paths for the next level?
-
-</details>
-
-<details>
-    <summary>207. Course Schedule</summary>
-
-HINT 1 of 2: It might be helpful to think about this problem as a graph on courses with prerequisite pairs as edges.
-
-HINT 2 of 2: What’s the problematic graph property that would prevent one from completing all the courses and how can you determine whether that’s present?
-
-</details>
-
-<details>
-    <summary>547. Number of Provinces</summary>
-
-HINT 1 of 2: This is another problem you can think of as a graph. City connections are undirected edges. 
-
-HINT 2 of 2: What graph property represents a province?
-
-</details>
-
-<details>
-    <summary>1042. Flower Planting With No Adjacent</summary>
-
-HINT 1 of 2: This is a graph problem, much like graph coloring. First you need to construct the graph from the paths (edges). 
-
-HINT 2 of 2: Given the limit on number of edges for each node, can you create a scenario where a node cannot be assigned because it would conflict with a neighboring node? Can a greedy approach work for this problem, or do you need something fancier?
-
-</details>
-
-
-<details>
-    <summary>279. Perfect Squares</summary>
-
-HINT 1 of 1: If you have solved the problem for a smaller number, can that solution help you determine the solution for a larger number?
 
 </details>
 
@@ -194,27 +156,70 @@ HINT 1 of 1: You need to group all the nodes of a given level. How might you kee
 
 </details>
 
-<!-- <details>
-    <summary>406. Queue Reconstruction by Height</summary>
+<details>
+    <summary>547. Number of Provinces</summary>
 
-    NONHINT 1 of 1: This one’s a tad tricky, but you can figure it out if you think about it enough.  Try building your own queue of different heights and see how, after shuffling, you’d reconstruct it.
+HINT 1 of 2: This is another problem you can think of as a graph. City connections are undirected edges. 
 
-</details> -->
-
-<!-- <details>
-    <summary>236. Lowest Common Ancestor of a Binary Tree</summary>
-
-    HINT 1 of 1: Think about the paths from the root to each of the two nodes in question.  How do you find those paths, and how do you compare them.  For this problem you want to determine the last node that both paths have in common, the one which is furthest from the root.
+HINT 2 of 2: What graph property represents a province?
 
 </details>
- -->
+
+<details>
+    <summary>120. Triangle</summary>
+
+HINT 1 of 1: If you know the minimum path lengths to all elements at one level, does that help you determine the paths for the next level?
+
+</details>
+
+<details>
+    <summary>279. Perfect Squares</summary>
+
+HINT 1 of 1: If you have solved the problem for a smaller number, can that solution help you determine the solution for a larger number?
+
+</details>
+
+<details>
+    <summary>1042. Flower Planting With No Adjacent</summary>
+
+HINT 1 of 2: This is a graph problem, much like graph coloring. First you need to construct the graph from the paths (edges). 
+
+HINT 2 of 2: Given the limit on number of edges for each node, can you create a scenario where a node cannot be assigned because it would conflict with a neighboring node? Can a greedy approach work for this problem, or do you need something fancier?
+
+</details>
+
+<details>
+    <summary>207. Course Schedule</summary>
+
+HINT 1 of 2: It might be helpful to think about this problem as a graph on courses with prerequisite pairs as edges.
+
+HINT 2 of 2: What’s the problematic graph property that would prevent one from completing all the courses and how can you determine whether that’s present?
+
+</details>
+
+<details>
+    <summary>406. Queue Reconstruction by Height</summary>
+
+    HINT 1 of 2: Try building your own queue of different heights and computing the associated $k$ values; how do those $k$ change if you shuffle heights in the queue?
+
+    HINT 2 of 2: Consider the relative ordering of a pair of heights. Also consider how inserting a height into the queue might or might not change the $k$ values.
+
+</details>
+
+<details>
+    <summary>236. Lowest Common Ancestor of a Binary Tree</summary>
+
+    HINT 1 of 1: Think about the paths from the root to each of the two nodes in question. How do you find those paths, and how do you compare them. For this problem you want to determine the last node that both paths have in common, the one which is furthest from the root.
+
+</details>
+
 
 <!-- <details>
     <summary>11. Container with Most Water</summary>
 
     HINT 1 of 2: This can be solved in multiple ways, but one of the most effective is to solve it with a greedy approach/algorithm.
 
-    HINT 2 of 2: Start with the widest container possible and gradually consider slightly smaller ones.  Think about the two possible containers immediately smaller than the largest, can you eliminate either of them as proovably smaller?
+    HINT 2 of 2: Start with the widest container possible and gradually consider slightly smaller ones.  Think about the two possible containers immediately smaller than the largest, can you eliminate either of them as provably smaller?
 
 </details> -->
 
