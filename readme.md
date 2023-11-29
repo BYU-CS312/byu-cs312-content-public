@@ -31,7 +31,7 @@ Office: **1156 TMCB**
 | 11:00 | TA Meeting     | Devotional                               | Caden          | Logan (Remote), Hunter                   | Caden, Kai  | 
 | 12:00 | Juliana, Caden | Juliana                                  | Juliana, Caden | Juliana                                  | Caden, Kai  | 
 | 1:00  | Juliana, Caden | Juliana, Hunter                          | Juliana, Caden | Juliana                                  | Caden, Kai  | 
-| 2:00  | Kai            | Abel, Hunter, Kai                        | Kai            | Abel, Kai                                | Kai         | 
+| 2:00  | Kai            | Abel,Kai                                 | Kai            | Abel, Kai                                | Kai         | 
 | 3:00  | Kai            |                                          | Kai            | Jack                                     | Kai         | 
 | 4:00  | Abel, Kai      | Jack, Kai                                | Abel, Kai      | Jack, Kai                                | Abel        | 
 | 5:00  | Abel, Hunter   | Jack                                     | Abel, Hunter   | Jack                                     | Abel        | 
