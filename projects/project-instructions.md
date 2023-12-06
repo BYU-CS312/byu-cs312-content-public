@@ -74,7 +74,7 @@ algorithm design.
 1. [Traveling Salesperson](project5-tsp/TSP.md): In this project, you will 
 implement a branch and bound algorithm to find solutions to the traveling salesperson 
 problem (TSP) and get your first taste of dealing with NP-completeness.
-1. [LeetCode Project](https://docs.google.com/document/d/1PdPCN3vfkQboSjYg-g8PrHbexOTWMvejhw2GX5L2spw/edit?usp=sharing) Details will be available early next week (by April 1st).
+1. [LeetCode Project](project6-leetcode/LeetCode.md) Details will be available early next week (by April 1st).
 
 
 ### Submissions
