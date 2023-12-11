@@ -65,23 +65,25 @@ The specific problems you may choose from are:
 
 There are two parts to the project.
 
-### Part A [72 pts]
+### Part A [24 pts]
 
 For *each* problem that you select, do the following:
 
 1. [6 pts] Solve the problem in LeetCode
-2. [6 pts] Provide a brief analysis of the time and space complexity of your solution
 
 Part A is due before Part B. Please review the [course schedule](../../schedule.md) to be clear on the deadlines. 
 
-You will submit two things for part A as listed above (one via a google form, one via gradescope).  First, you will fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdS6C6Y76yFSa7RbUvsUoz4Z5Hvtt9pq3UOD_0r-90oEa41ZQ/viewform) once for each problem that you complete; you'll this fill this form out 6+ times!  Second, after solving all 6+ problems, you will upload a single document (PDF) with your per-problem complexity analysis (one paragraph per problem) to Gradescope, under "Project 6 - Part A.2 - Complexity Analysis Document".
+While the specific format for your project submission is TBD, plan on turning in your source code, links to your correct submissions in LeetCode, and a report of your complexity analyses to Gradescope. 
 
 Please, **do not look at solutions**, on LeetCode or other websites, nor at a classmate’s solution, until **after** you have solved a given problem. If you’re stuck, you can refer to the hints below, but you’re encouraged to try the problem on your own before looking at the hints. If with the hints you’re still stuck, you can reach out to the TAs or to your instructor.
 
-### Part B [24 pts]
+### Part B [72 pts]
 
-For each problem that you select, meet with another student in the class that solved the same problem and compare your solutions and problem solving strategies. 
-Then provide a brief report (e.g. one paragraph per problem) describing what you learned and discussed.
+Turn in a PDF that includes the following for each problem (up to six) that you solve:
+
+1. Your source code (from part A)
+1. [6 pts] Provide a brief analysis of the time and space complexity of your solution
+2. [6 pts] Meet with another student in the class that solved the same problem and compare your solutions and problem solving strategies. Then provide a brief report (e.g. one paragraph per problem) describing what you learned and discussed.
 
 To facilitate this part of the project, we will be using lecture time during the last week of class to discuss solutions (please see the [course schedule](../../schedule.md) for the specific date). If you are present in class that day, you will have time to discuss most, if not all, of the six problems you need to have solved with other students during class and will only need to write the report as homework.
 
