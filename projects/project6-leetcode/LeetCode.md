@@ -65,7 +65,7 @@ The specific problems you may choose from are:
 
 There are two parts to the project.
 
-### Part A [24 pts]
+### Part A [36 pts]
 
 For *each* problem that you select, do the following:
 
@@ -77,13 +77,13 @@ While the specific format for your project submission is TBD, plan on turning in
 
 Please, **do not look at solutions**, on LeetCode or other websites, nor at a classmate’s solution, until **after** you have solved a given problem. If you’re stuck, you can refer to the hints below, but you’re encouraged to try the problem on your own before looking at the hints. If with the hints you’re still stuck, you can reach out to the TAs or to your instructor.
 
-### Part B [72 pts]
+### Part B [60 pts]
 
 Turn in a PDF that includes the following for each problem (up to six) that you solve:
 
 1. Your source code (from part A)
 1. [6 pts] Provide a brief analysis of the time and space complexity of your solution
-2. [6 pts] Meet with another student in the class that solved the same problem and compare your solutions and problem solving strategies. Then provide a brief report (e.g. one paragraph per problem) describing what you learned and discussed.
+2. [4 pts] Meet with another student in the class that solved the same problem and compare your solutions and problem solving strategies. Then provide a brief report (e.g. one paragraph per problem) describing what you learned and discussed.
 
 To facilitate this part of the project, we will be using lecture time during the last week of class to discuss solutions (please see the [course schedule](../../schedule.md) for the specific date). If you are present in class that day, you will have time to discuss most, if not all, of the six problems you need to have solved with other students during class and will only need to write the report as homework.
 
