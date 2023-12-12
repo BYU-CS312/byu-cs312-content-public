@@ -73,7 +73,7 @@ For *each* problem that you select, do the following:
 
 Part A is due before Part B. Please review the [course schedule](../../schedule.md) to be clear on the deadlines. 
 
-While the specific format for your project submission is TBD, plan on turning in your source code, links to your correct submissions in LeetCode, and a report of your complexity analyses to Gradescope. 
+To submit part A, use this google form: [CS312 - Project 6 - LeetCode Problems](https://docs.google.com/forms/d/e/1FAIpQLSdS6C6Y76yFSa7RbUvsUoz4Z5Hvtt9pq3UOD_0r-90oEa41ZQ/viewform)
 
 Please, **do not look at solutions**, on LeetCode or other websites, nor at a classmate’s solution, until **after** you have solved a given problem. If you’re stuck, you can refer to the hints below, but you’re encouraged to try the problem on your own before looking at the hints. If with the hints you’re still stuck, you can reach out to the TAs or to your instructor.
 
