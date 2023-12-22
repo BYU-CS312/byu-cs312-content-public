@@ -75,6 +75,8 @@ Part A is due before Part B. Please review the [course schedule](../../schedule.
 
 To submit part A, use this google form: [CS312 - Project 6 - LeetCode Problems](https://docs.google.com/forms/d/e/1FAIpQLSdS6C6Y76yFSa7RbUvsUoz4Z5Hvtt9pq3UOD_0r-90oEa41ZQ/viewform)
 
+Be sure to update your **submission** links, and not the problem description link (i.e. when someone clicks your link, they should go straight to the page that shows your code and the accepted/rejected status).
+
 Please, **do not look at solutions**, on LeetCode or other websites, nor at a classmate’s solution, until **after** you have solved a given problem. If you’re stuck, you can refer to the hints below, but you’re encouraged to try the problem on your own before looking at the hints. If with the hints you’re still stuck, you can reach out to the TAs or to your instructor.
 
 ### Part B [60 pts]
