@@ -1,7 +1,7 @@
 # Project 1: Primality Test
 
 ![](Proj1GUI.png)
-![](picture1.png)
+![](Picture1.png)
 
 ## Instructions
 
