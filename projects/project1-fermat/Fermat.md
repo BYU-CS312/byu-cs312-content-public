@@ -18,8 +18,8 @@ You will implement the code that is executed when the "Test Primality" button is
 ## Report
 Your report should consist of: 
 1.	All of the code that you wrote. If your code spans multiple files, make sure that you include all of it in your PDF appendix, and make sure that it is organized in a way that makes it easy for the reader (TA) to follow. Your code must include the following:
-    - [10 points] A correct implementation of modular exponentiation.
-    - [10 points] A correct implementation of the Fermat primality tester.
+    - [15 points] A correct implementation of modular exponentiation.
+    - [15 points] A correct implementation of the Fermat primality tester.
     - [10 points] A correct implementation of the Miller-Rabin algorithm.
 2.	[15 points]. Discuss the time and space complexity of the Modexp and Fermat algorithms. You must demonstrate that you really understand the complexity and which parts of your program lead to that complexity.  You may do this by:
     - Showing and summing up the complexity of each significant subsection of your code, or
