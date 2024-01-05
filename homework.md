@@ -1,6 +1,6 @@
 ## CS 312 Homework Guidelines
 
-Submit each homework as a PDF file through Learning Suite before the due time.  Plan on submitting early as sometimes there are glitches when you try to submit just before the due time. 
+Submit each homework as a PDF file through Learning Suite before 7:45am on the due date.  Plan on submitting early (e.g. night before) as sometimes there are glitches when you try to submit just before the due time. 
 
 Show your work.  That can also allow you get partial credit if your answer is wrong. Communicating clearly and concisely what you have to say is an important skill you will use throughout your career. Good writing, grammar, punctuation, etc. are important.  All written assignments are to be neat and professional. Homework may be handwritten and scanned as a PDF if you wish. Review all PDFs after submitting to ensure they are easily legible.
 
