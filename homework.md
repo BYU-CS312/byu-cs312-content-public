@@ -11,7 +11,7 @@ Show your work.  That can also allow you get partial credit if your answer is wr
 | <a id='1'>1</a> | 1 | [Complexity](homework/HW1.md) |
 | <a id='2'>2</a> | 1 | 1.7 (3), 1.25 (2), solve 2<sup>21</sup> mod 18 using the algorithm of Fig. 1.4; show a table with all variable values at each call level (5) |
 | <a id='3'>3</a> | 1 | 1.18 (2), 1.20 (5), 1.27 (3) |
-| <a id='4'>4</a> | 2 | 2.4 (3), 2.5(a-e, only find bounds using the master theorem. You may use big-O as that has the same results as big- in this case) (5), 2.17 (2) |
+| <a id='4'>4</a> | 2 | 2.4 (3), 2.5(a-e, only find bounds using the master theorem. You may use big-O as that has the same results as big-Θ in this case) (5), 2.17 (2) |
 | <a id='5'>5</a> | 2 | 2.19 (5), 2.23 (5) |
 | <a id='6'>6</a> | 3 | 3.1 (4), 3.2 (6) (Show DFS forest and all edges in forest) |
 | <a id='7'>7</a> | 3 | 3.3 (4), 3.4 (6) |
