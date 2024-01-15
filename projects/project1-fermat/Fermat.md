@@ -16,7 +16,7 @@ You will implement the code that is executed when the "Test Primality" button is
 
 
 ## Report
-Your report should consist of: 
+Number each part of your report to match the numbering below.  For number 1 you can just say "See Appendix." Do this for all your reports. This report should consist of: 
 1.	All of the code that you wrote. If your code spans multiple files, make sure that you include all of it in your PDF appendix, and make sure that it is organized in a way that makes it easy for the reader (TA) to follow. Your code must include the following:
     - [15 points] A correct implementation of modular exponentiation.
     - [15 points] A correct implementation of the Fermat primality tester.
