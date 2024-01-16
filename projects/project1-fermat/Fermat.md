@@ -89,7 +89,7 @@ which is exactly what we saw in our example.
 What they also showed was that for composites (*including* Carmichael numbers), for 
 at least **3/4** of the possible choices for $a$, this will not be the case—either the initial test will not equal 
 $1 \pmod N$, just as in the Fermat case, or, if it does, in taking the series of square roots, the first number to show up 
-after the sequence of $1$s will be something other than $N-1 \equiv -1 \pmod N$.
+after the sequence of 1s will be something other than $N-1 \equiv -1 \pmod N$.
 
 Here is another example: suppose $N=561$ and we choose $a=4$. Then, computing our sequence of square roots, we get
 
@@ -122,5 +122,5 @@ $N$ has passed one round of the Miller-Rabin test $a$. We still don't know anyth
 
 So we continue to choose another random $a$ and repeat our test; however, if we instead find that there is a first result in the sequence that is neither $1 \: \text{nor} \: N-1 \equiv -1 \pmod N$, then we know the number is composite.
 
-Note: In report part 3 above you discuss your efforts to find cases where Fermat and Miller-Rabin give different results.  Students often test the first Carmichael number (561) assuming the Fermat test will fail with that number, and Miller-Rabin will catch it.  The Fermat test will NOT always fail when testing a Carmichael number.  Carmichael numbers pass the Fermat test for all ai relatively prime to the number. Two integers are relatively prime if their greatest common denominator is 1. The probability that two random numbers are relatively prime is 60.8%. Thus, the Fermat test will still usually detect a Carmichael number as composite, but not in the case where the ai that are randomly chosen happen to be all relatively prime to the number, which becomes less likely as k increases.  As long as you make a good effort to try and find differences and discuss that effort, we will give you full credit for this part.
+Note: In your report you discuss your efforts to find cases where Fermat and Miller-Rabin give different results.  Students often test the first Carmichael number (561) assuming the Fermat test will fail with that number, and Miller-Rabin will catch it.  The Fermat test will NOT always fail when testing a Carmichael number.  Carmichael numbers pass the Fermat test for all $a_{i}$ relatively prime to the number. Two integers are relatively prime if their greatest common denominator is 1. The probability that two random numbers are relatively prime is 60.8%. Thus, the Fermat test will still usually detect a Carmichael number as composite, but not in the case where the $a_{i}$ that are randomly chosen happen to be all relatively prime to the number, which becomes less likely as *k* increases.  As long as you make a good effort to try and find differences and discuss that effort, we will give you full credit for this part.
 
