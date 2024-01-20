@@ -68,11 +68,11 @@ $$
 We can complete the sequence with 
 
 $$
-(3^{12})^{\frac{1}{2}} = 3^6 = 729 \equiv 50 \pmod {97}
+(3^{12})^{\frac{1}{2}} = 3^6 = 729 \equiv 50 \pmod {97},
 $$
 and
 $$
-(3^6)^{\frac{1}{2}} = 3^3 = 27 \equiv 27 \pmod {97}, 
+(3^{6})^{\frac{1}{2}} = 3^3 = 27 \equiv 27 \pmod {97}, 
 $$
 
 and we can't divide the exponent by 2 anymore, so the sequence ends.
