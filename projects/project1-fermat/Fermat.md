@@ -24,8 +24,9 @@ Number each part of your report to match the numbering below.  For number 1 you 
 2.	[15 points]. Discuss the time and space complexity of the Modexp and Fermat algorithms. You must demonstrate that you really understand the complexity and which parts of your program lead to that complexity.  You may do this by:
     - Showing and summing up the complexity of each significant subsection of your code, or
     - Creating brief psuedocode showing the critical complexity portions, or
-    - Using another approach of your choice. 
-For whichever approach you choose, include sufficient discussion/explanation to demonstrate your understanding of the complexity of the entire problem and any significant subparts.  Our Miller-Rabin algorithm will have a different time complexity than Fermat.  You can get up to 4 extra credit points if you correctly explain the Miller-Rabin complexity.
+    - Using another approach of your choice. For whichever approach you choose, include sufficient discussion/explanation to demonstrate your understanding of the complexity of the entire problem and any significant subparts.  
+
+    Our Miller-Rabin algorithm will have a different time complexity than Fermat.  You can get up to 4 extra credit points if you correctly explain the Miller-Rabin time complexity. 
 3.	[15 points] At least one screenshot of your application with a working example (distinct from the one above).
 4.	[10 points] A brief discussion of some experimentation you did to identify inputs for which the two algorithms disagree. Give a good effort to explain why they disagree. Include a screenshot showing a case of disagreement.
 5.	[10 points] Discuss the two equations you used to compute the probabilities $p$ of correctness for the two algorithms (Fermat and Miller-Rabin).

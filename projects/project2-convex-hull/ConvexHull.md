@@ -18,7 +18,7 @@ We provide a [framework](../project2-convex-hull/project2-convex-hull.zip) in Py
 
 4. Conduct an *empirical analysis* of your algorithm by running several experiments as follows:
 	1. For each value *n* ∈ {10, 100, 1000, 10,000, 100,000, 500,000, 1,000,000}
-		1. Generate 5 sets of *n* points (*x*,*y*) in the plane. You may use either provided point generator: the 2-D Gaussian (Normal) distribution or the uniform distribution. For every point, *x* and *y* are real numbers (doubles).
+		1. Generate 5 sets of *n* points (*x*,*y*) in the plane. Select uniform for point generation. For every point, *x* and *y* are real numbers (doubles).
 		2. For each point set,
 			1. find the convex hull
 			2. record the elapsed time
@@ -36,11 +36,11 @@ We provide a [framework](../project2-convex-hull/project2-convex-hull.zip) in Py
 Submit a type-written report with the following numbered sections as a single PDF document. Points are shown in brackets.
 
 1. [40] Correct functioning code to solve the Convex Hull problem using the divide and conquer scheme presented in class, with appropriate comments.
-2. [20] Discuss the time and space complexity of your algorithm. You must demonstrate that you really understand the complexity and which parts of your program lead to that omplexity. You may do this by:
+2. [20] Discuss the time and space complexity of your algorithm. Also show and discuss the recurrence relation and Master Theorem complexity which should give the same complexity. You must demonstrate that you really understand the complexity and which parts of your program lead to that complexity. You may do this by:
 	1. Showing and summing up the complexity of each significant subsection of your code, or
 	2. Creating brief psuedocode showing the critical complexity portions, or
 	3. Using another approach of your choice.
-For whichever approach you choose, include sufficient discussion/explanation to demonstrate your understanding of the complexity of the entire problem and any significant subparts. Also show and discuss the recurrence relation and Master Theorem complexity which should give the same bound.
+For whichever approach you choose, include sufficient discussion/explanation to demonstrate your understanding of the complexity of the entire problem and any significant subparts. 
 3. [10] Include your raw and mean experimental outcomes, plot, and your discussion of the pattern in your plot. Which order of growth fits best? Give an estimate of the constant of proportionality. Include all work and explain your assumptions.
 4. [5] Discuss and explain your observations with your theoretical and empirical analyses, including any differences seen.
 5. [15] Include a correct screenshot of an example with 100 points and a screenshot of an example with 1000 points.
