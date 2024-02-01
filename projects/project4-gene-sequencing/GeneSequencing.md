@@ -1,35 +1,20 @@
-# Project 4: Gene Sequencing
+# Project 4: Gene Sequencing (Dynamic Programming)
 
-
-### Overview
-
-In this project, you will implement dynamic programming algorithms for computing the minimal cost of aligning gene sequences and for extracting optimal alignments.
-
-
-### Objectives
-
-1. Design and implement a Dynamic Programming algorithm that has applications to gene sequence alignment.
-2. Think carefully about the use of memory in an implementation.
-3. Solve a non-trivial computational genomics problem.
-
-
-### Background
-
-You are using dynamic programming to align multiple gene sequences (taxa), two at a time. In light of the SARS outbreak a few years ago, we have chosen to use the SARS virus as one of our DNA sequences. SARS is a coronavirus, and we have also provided the genomes for several other coronaviruses. It is your job in this project to align all pairsin order to assess the pair-wise similarity. To prepare to succeed on this project, make sure you understand the sequence alignment and solution extraction algorithms as presented in class and in the book.
-
-
-### Provided Framework
-
-You are provided with some scaffolding [code](../project4-gene-sequencing/project4-gene-sequencing.zip/) to help you get started on the project. We provide a PyQt GUI containing a 10x10 matrix, with a row and a column for each of 10 organisms. The organism at row *i* is the same organism for column *i*. \*\*\*Note that this matrix is *not* the dynamic programming table\*\*\*; it is simply a place to store and display the final result from the alignment of the gene sequences for each pair of organisms. Thus, cell (*i*, *j*) in this table will contain the minimum cost alignment score of the genome for organism *i* with the genome for organism *j*.
-
-When you press the “Process” button on the GUI, the matrix fills with numbers, one number for each pair, as shown in the figure below. You will generate these numbers by aligning the first *n* characters (bases) in each sequence pair (the default will be *n* = 1000 but you can change this). Note that your alignment may be slightly longer than this due to inserts. Your job will be to fill in the proper numbers based on a sequence alignment function that employs dynamic programming. You will fill the matrix with the pair-wise scores. You do not need to fill in the lower triangle of the matrix (since it is symmetric), but you should fill in the diagonal. When the “Process” button is clicked, the GUI calls the GeneSequencing.align() method which you will implement.
+**Background**: You are using dynamic programming to align multiple gene sequences (taxa), two at a time. We have chosen to use the SARS virus as one of our DNA sequences. SARS is a coronavirus, and we have also provided the genomes for several other coronaviruses. It is your job in this project to align all pairs in order to assess the pair-wise similarity using the edit distance algorithm as presented in class and in the book.
 
 ![](images/gui4.png)
+
+**Framework**: The[framework](../project4-gene-sequencing/project4-gene-sequencing.zip/) provides a GUI containing a 10x10 matrix, with a row and a column for each of 10 organisms. The organism at row *i* is the same organism for column *i*. \*\*\*Note that this matrix is *not* the dynamic programming table\*\*\*; it is simply a place to store and display the final result from the alignment of the gene sequences for each pair of organisms. Thus, cell (*i*, *j*) in this table will contain the minimum cost alignment score of the genome for organism *i* with the genome for organism *j*.
+
+When you press the “Process” button on the GUI, the matrix fills with numbers, one number for each pair, as shown in the figure above. You will generate these numbers by aligning the first *n* characters (bases) in each sequence pair (the default is *n* = 1000 but you can change this). Note that your alignment may be slightly longer than this due to inserts. Your will fill in the proper numbers using the edit distance dynamic programming approach discusssed in class. You will fill the matrix with the pair-wise scores. You do not need to fill in the lower triangle of the matrix (since it is symmetric), but you should fill in the diagonal. When the “Process” button is clicked, the GUI calls the GeneSequencing.align() method which you will implement.
 
 Each gene sequence consists of a string of letters and is stored in the given database file. The scaffolding code loads the data from the database. For example, the record for the “sars9” genome contains the following sequence (prefix shown here):
 
 	atattaggtttttacctacccaggaaaagccaaccaacctcgatctcttgtagatctgttctctaaacgaactttaaaatctgtgtagctgtcgctcggctgcatgcctagtgcaccta...
 
+To help you get started and aid we give you some of the final cell values in the following image:
+
+![](images/Alignment.jpg)
 
 ### Instructions
 
@@ -37,12 +22,13 @@ Each gene sequence consists of a string of letters and is stored in the given da
 	1. Substitutions, which are single character mismatches, are penalized 1 unit
 	2. Insertions/Deletions (“indels”), which create gaps, are penalized 5 units
 	3. Matches are rewarded -3 units
-2. Implement the same algorithm as above, except you will do a banded alignment of the sequences. A banded alignment means that you will only consider alignments in which the ith character from sequence A and the ith character from sequence B are within some distance d of one another. Restricting ourselves to such alignments means that we will only compute scores for a band around the diagonal of the scoring matrix, with bandwidth 2d+1. For this project, set d=3, so that your bandwidth k is 7 (see image below). Call this the “banded algorithm.” While optimal in its limited space, it will not always give the overall optimal. Your unrestricted algorithm must run in at most O(nm) time and space, where n and m are the lengths of the two sequences. Your banded algorithm must run in at most O(kn) time and O(kn) space, where k is the bandwidth and n is the length of the shorter sequence. (DON’T store your kn values inside an nm matrix)!
+2. Implement the same algorithm as above, except you will do a banded alignment of the sequences. A banded alignment means that you will only consider alignments in which the ith character from sequence A and the ith character from sequence B are within some distance d of one another. Restricting ourselves to such alignments means that we will only compute scores for a band around the diagonal of the scoring matrix, with bandwidth 2*d*+1. For this project, set *d*=3, so that your bandwidth *k*=7 (see image below). Call this the “banded algorithm.” While optimal in its limited space, it will not always give the overall optimal. Your unrestricted algorithm must run in at most O(*nm*) time and space, where *n* and *m* are the lengths of the two sequences. Your banded algorithm must run in at most O(*kn*) time and O(*kn*) space, where k is the bandwidth and *n* is the length of the shorter sequence. (DON’T store your *kn* values inside an *nm* matrix)!
 
 ![](images/banded.png)
 
 3. Your algorithms must produce both an alignment score and a character-by-character alignment of the two sequence arguments.
-	1. Note that when you correctly populate the provided align_cost, seqi_first100 and seqj_first100variables in the align() method, your alignments and their sequence names will be displayed in the text boxes below the results table whenever you click on a cell in the table (you have to click on the numbers in the box, not the empty space), showing the first 100 characters in the alignment, and clearly revealing the matches, substitutions, and insertions/deletions (indels), as shown in the short example below. Indels are indicated with a '-' (hyphen).
+	1. Do not use Python Dictionaries for your implementation. Implement your edit distance algorithms using arrays where you must understand the size and dependencies within the arrays and how to access the cell which is north, west, northwest, etc.  This will better help you understand what dynamic programming is doing.
+	2. Note that when you correctly populate the provided align_cost, seqi_first100 and seqj_first100variables in the align() method, your alignments and their sequence names will be displayed in the text boxes below the results table whenever you click on a cell in the table (you have to click on the numbers in the box, not the empty space), showing the first 100 characters in the alignment, and clearly revealing the matches, substitutions, and insertions/deletions (indels), as shown in the short example below. Indels are indicated with a '-' (hyphen).
 
 			AGCTCATGC
 			ACTGCAT-C
@@ -54,30 +40,17 @@ Each gene sequence consists of a string of letters and is stored in the given da
 	1. To help you verify the correctness of your algorithms, the optimal alignment of these two strings should be -1 (your code should compute that result for the cell at row 1 and column 2 in the table).
 	2. As another aid for verifying the correctness of your algorithms, the table above includes two values that should appear in your table: at row 3, column 4 you should get -2996 and at row 9 column 10 -2727. These are for unrestricted alignment of the first 1000 bases of the genomes. FYI, when doing banded and aligning the first 3000 bases, the same cells should be -8984 and -1315 respectively.
 	3. For the first case above, the alignments you find should look like this for unrestricted alignment:
+![](images/Align1.jpg)
 
-			gattgcgagcgatttgcgtgcgtgcatcccgcttcactgatctcttgttagatcttttcataatctaaactttataaaaacatccactccctgtagtcta
-			gattgcgagcgatttgcgtgcgtgcatcccgcttcactgatctcttgttagatcttttcataatctaaactttataaaaacatccactccctgtagtcta
 	4. The same for banded. For the second case, the unrestricted alignment case should look like this:
+![](images/Align2.jpg)
 
-			at-----tg---g-cgtccgtacgtaccctttctactctcaaactcttgttagtttaaatctaatctaaactttataaacggcacttcctgtgtgtccat
-			ataagagtgattggcgtccgtacgtaccctttctactctcaaactcttgttagtttaaatctaatctaaactttataaacggcacttcctgtgtgtccat
 	5. The banded version like this:
-
-			attggcgtccgta-cgtaccctttctactctcaa-actcttgttagtttaaatctaatctaaa-ctt-tataaacggcacttcctgtgtgtccatgcccg
-			ataagagtgattggcgt-ccgtacgtaccctttctactctcaa-actcttg-t-tagtttaaatctaatctaaactttataaacggcacttcc-tgt--g
-
-
-### Performance Requirement
-
-You must fill the 10x10 results matrix for **1000** base pairs with your unrestricted algorithm in less than **120** seconds using O(*nm*) time and space. Remember: Since the matrix is symmetric, you should only fill the upper part of the matrix (above the diagonal).
-
-Your banded algorithm should fill in the same matrix for **3000** base pairs in less than **10** seconds using O(*kn*) time and space, where *k* is your bandwidth constant and *n* is the length of the shorter sequence.
-
+![](images/Align3.jpg)
 
 ### Report
 
-90 points total. The other 10 come from your design experience.
-Write a report describing your work containing the following elements:
+90 points total. The other 10 come from your design experience. Number your report sections to match the following.
 
 1. [30] Include your commented source code for both your unrestricted and banded algorithms as an appendix.
 2. [20] Discuss the time and space complexity of both your algorithms. You must demonstrate that you really understand the complexity and which parts of your program lead to that complexity. Your analysis should show that your unrestricted algorithm is O(*nm*) time and space and that your banded algorithm is O(*kn*) time and space. For your O(*kn*) banded space, discuss how you modified your dependency pointers to the adjacent cells with your smaller array. You may do all this by:
@@ -86,19 +59,7 @@ Write a report describing your work containing the following elements:
 	3. Using another approach of your choice.
 	4. For whichever approach you choose, include sufficient discussion/explanation to demonstrate your understanding of the complexity of the entire problem and any significant subparts.
 3. [20] Include 2 screen-shots: 1) your 10x10 score matrix for the unrestricted algorithm with align length *n* = 1000, and 2) your 10x10 score matrix for the banded algorithm with align length *n* = 3000. Time needed to complete each table is shown in the bottom of the screenshots. Your unrestricted algorithm must complete in less than **120** seconds. Your banded algorithm must complete in less than **10** seconds.
-4. [20] Include the alignment for the first 100 characters of sequences #3 and #10 (counting from 1), computed using the unrestricted algorithm with *n* = 1000. Display the sequences with a fixed length font one above the other in such a way that matches, substitutions, and insertions/deletions are clearly discernible as shown in the To Do section. Also include the alignment for the same pair of sequences when computed using the banded algorithm and *n* = 3000.
-
-
-### Further Exploration
-
-Here are a couple of suggestions for further exploration. They are listed without prejudice against things that are or are not on this list.
-
-* Experiment with alternative operator (substitution, match, indel) costs and discuss the impact of changing their values.
-* Try aligning longer (sub-)sequences. Conduct an empirical analysis. Discuss impact on the alignment score matrix.
-* Re-implement your alignment algorithm in top-down fashion using recursion and a memory function. How does this algorithm compare to the implementation using a table?
-* Try a shortest-path algorithm like Dijkstra’s to solve this problem.
-* Get ahead of the game, learn about the A\* shortest-path algorithm, and implement it with a tight admissible heuristic (we will get to this topic later in the course, but you might enjoy trying it in the context of the alignment problem)
-
+4. [20] Include the alignment for the first 100 characters of sequences #3 and #10 (counting from 1), computed using the unrestricted algorithm with *n* = 1000. Display the sequences with a fixed length font one above the other in such a way that matches, substitutions, and insertions/deletions are clearly discernible like in the instructions section. Also include the alignment for the same pair of sequences when computed using the banded algorithm and *n* = 3000.
 
 ### Appendix: Background Reading on Coronaviruses
 
