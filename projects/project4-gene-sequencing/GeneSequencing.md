@@ -4,15 +4,15 @@
 
 ![](images/gui4.png)
 
-**Framework**: The[framework](../project4-gene-sequencing/project4-gene-sequencing.zip/) provides a GUI containing a 10x10 matrix, with a row and a column for each of 10 organisms. The organism at row *i* is the same organism for column *i*. \*\*\*Note that this matrix is *not* the dynamic programming table\*\*\*; it is simply a place to store and display the final result from the alignment of the gene sequences for each pair of organisms. Thus, cell (*i*, *j*) in this table will contain the minimum cost alignment score of the genome for organism *i* with the genome for organism *j*.
+**Framework**: The [framework](../project4-gene-sequencing/project4-gene-sequencing.zip/) provides a GUI containing a 10x10 matrix, with a row and a column for each of 10 organisms. The organism at row *i* is the same organism for column *i*. \*\*\*Note that this matrix is *not* the dynamic programming table\*\*\*; it is simply a place to store and display the final result from the alignment of the gene sequences for each pair of organisms. Thus, cell (*i*, *j*) in this table will contain the minimum cost alignment score of the genome for organism *i* with the genome for organism *j*.
 
 When you press the “Process” button on the GUI, the matrix fills with numbers, one number for each pair, as shown in the figure above. You will generate these numbers by aligning the first *n* characters (bases) in each sequence pair (the default is *n* = 1000 but you can change this). Note that your alignment may be slightly longer than this due to inserts. Your will fill in the proper numbers using the edit distance dynamic programming approach discusssed in class. You will fill the matrix with the pair-wise scores. You do not need to fill in the lower triangle of the matrix (since it is symmetric), but you should fill in the diagonal. When the “Process” button is clicked, the GUI calls the GeneSequencing.align() method which you will implement.
 
-Each gene sequence consists of a string of letters and is stored in the given database file. The scaffolding code loads the data from the database. For example, the record for the “sars9” genome contains the following sequence (prefix shown here):
+Each gene sequence consists of a string of letters and is stored in the given database file. The scaffolding code loads the data from the database. For example, below is the initial part of the “sars9” genome:
 
 	atattaggtttttacctacccaggaaaagccaaccaacctcgatctcttgtagatctgttctctaaacgaactttaaaatctgtgtagctgtcgctcggctgcatgcctagtgcaccta...
 
-To help you get started and aid we give you some of the final cell values in the following image:
+To help you get started and aid in debugging we give you some of the final cell values in the following image:
 
 ![](images/Alignment.jpg)
 
@@ -34,18 +34,18 @@ To help you get started and aid we give you some of the final cell values in the
 			ACTGCAT-C
 			
 	2. In case there is more than one optimal alignment, break ties with the following preference order: left, top, diagonal.
-	3. The pair-wise scores computed by your algorithm should be displayed in the given 10x10 score matrix such that position (i, j) in the display shows the optimal distance from taxai to taxaj for the first n characters (note that n can be changed in the "Align Length" input box at the bottom of the interface). Correctness of your algorithm will be checked using this matrix.
+	3. The pair-wise scores computed by your algorithm should be displayed in the given 10x10 score matrix such that position (i, j) in the display shows the optimal distance from taxa<sub>*i*</sub> to taxa<sub>*j*</sub> for the first *n* characters (note that *n* can be changed in the "Align Length" input box at the bottom of the interface). Correctness of your algorithm will be checked using this matrix.
 	4. Note that for banded alignments, sequences with significant length discrepancies cannot be aligned. This will be the case for the two artificial sequences paired with the real genomes (the top two rows in the results table). In these cases, set align_cost equal to math.inf (use float('inf') for Python versions before 3.5) and both seqi_first100 and seqj_first100 strings to “No Alignment Possible.”
 4. As an aid to debugging, the first two sequences in the database are the strings: “polynomial” and “exponential”. The string “polynomial” is the sequence for the first row (and column) of the score matrix, and “exponential” the second. While these strings aren’t biologically valid DNA sequences, they can be used to debug your algorithms.
 	1. To help you verify the correctness of your algorithms, the optimal alignment of these two strings should be -1 (your code should compute that result for the cell at row 1 and column 2 in the table).
 	2. As another aid for verifying the correctness of your algorithms, the table above includes two values that should appear in your table: at row 3, column 4 you should get -2996 and at row 9 column 10 -2727. These are for unrestricted alignment of the first 1000 bases of the genomes. FYI, when doing banded and aligning the first 3000 bases, the same cells should be -8984 and -1315 respectively.
-	3. For the first case above, the alignments you find should look like this for unrestricted alignment:
+	3. For the first case above, the alignments you find should look like this for both the unrestricted and banded alignments:
 ![](images/Align1.jpg)
 
-	4. The same for banded. For the second case, the unrestricted alignment case should look like this:
+	4. For the second case, the unrestricted alignment case should look like this:
 ![](images/Align2.jpg)
 
-	5. The banded version like this:
+	5. And the banded version like this:
 ![](images/Align3.jpg)
 
 ### Report
