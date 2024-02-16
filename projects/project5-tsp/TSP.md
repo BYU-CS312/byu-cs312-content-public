@@ -1,4 +1,4 @@
-# Project 5: Travelling Salesman (Intelligent Search)
+# Project 5: Travelling Salesperson (Intelligent Search)
 
 ### Provided Framework
 
