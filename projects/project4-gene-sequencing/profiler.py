@@ -1,5 +1,6 @@
 import cProfile
 from GeneSequencing import *
+from Proj4GUI import Proj4GUI
 
 # You can use this script to profile your working implementation.
 # Please reach out to Shiloh on Slack if you have any questions... 
@@ -7,8 +8,7 @@ from GeneSequencing import *
 
 class Profiler:
     def __init__(self, banded: bool = False, alignLength: int = 1000) -> None:
-        self.seqs = self.loadSequencesFromFile()
-        self.processed_results = []
+        self.seqs = Proj4GUI.loadSequencesFromFile()
         self.banded = banded
         self.solver = GeneSequencing()
         self.alignLength = alignLength
@@ -23,35 +23,7 @@ class Profiler:
                                       sequences[j], \
                                       banded=self.banded, \
                                       align_length=self.alignLength)
-        
-    # This could just be called via, Proj4GUI.loadSequencesFromFile(), 
-    # but it would require the method to be declared static. I didn't want 
-    # to change the GeneSequency.py code without Dr. Martinez's 
-    # permission though.
-    def loadSequencesFromFile(self) -> None:
-        FILENAME = 'genomes.txt'
-        raw = open(FILENAME,'r').readlines()
-        sequences = {}
 
-        i = 0
-        cur_id	= ''
-        cur_str = ''
-        for liner in raw:
-            line = liner.strip()
-            if '#' in line:
-                if len(cur_id) > 0:
-                    sequences[i] = (i,cur_id,cur_str)
-                    cur_id	= ''
-                    cur_str = ''
-                    i += 1
-                parts = line.split('#')
-                cur_id = parts[0]
-                cur_str += parts[1]
-            else:
-                cur_str += line
-        if len(cur_str) > 0 or len(cur_id) > 0:
-            sequences[i] = (i,cur_id,cur_str)
-        return sequences
                     
 profiler = Profiler()
 runString = "profiler.test()"
