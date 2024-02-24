@@ -22,6 +22,9 @@ from Proj3GUI import Proj3GUI
 from NetworkRoutingSolver import *
 from CS312Graph import *
 
+# You can use this script to profile your working implementation.
+# Please reach out to Shiloh on Slack if you have any questions... 
+# (or if you run into issues with the script.)
 
 class Proj3Profiler:
     def __init__(self, doArray: bool = True, \
