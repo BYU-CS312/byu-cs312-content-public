@@ -6,7 +6,7 @@ from Proj4GUI import Proj4GUI
 # Please reach out to Shiloh on Slack if you have any questions... 
 # (or if you run into issues with the script.)
 
-class Profiler:
+class Proj4Profiler:
     def __init__(self, banded: bool = False, alignLength: int = 1000) -> None:
         self.seqs = Proj4GUI.loadSequencesFromFile()
         self.banded = banded
@@ -23,8 +23,7 @@ class Profiler:
                                       sequences[j], \
                                       banded=self.banded, \
                                       align_length=self.alignLength)
-
                     
-profiler = Profiler()
+profiler = Proj4Profiler()
 runString = "profiler.test()"
 cProfile.run(runString)
