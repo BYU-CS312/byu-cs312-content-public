@@ -1,0 +1,3 @@
+> How can I traverse my banded table data structure without going outside the lengths of the arrays?
+
+*There are multiple ways to do this. One way is to create arithmetic functions that decrease your x axis index based on your y axis and width value. You could also make a cell class, and use inter-class pointers to link cells (i.e. above, below, left, right, maybe diagonal) This would effectively be a linked table, and it would have your targetted k\*n space complexity.*
