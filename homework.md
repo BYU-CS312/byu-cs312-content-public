@@ -25,9 +25,8 @@ Show your work.  That can also allow you get partial credit if your answer is wr
 | <a id='15'>15</a> | 6 | [Dynamic Programming HW 3](homework/MM.pdf) |
 | <a id='16'>16</a> | 7 | 7.1 (5), 7.3 (5) For 7.3 also use a linear program solver you find online to solve your program and provide a screenshot of the solution. |
 | <a id='17'>17</a> | 7 | 7.11 (5), 7.13 (5) |
-| <a id='18'>18</a> | 7 | [Linear Programming and Simplex](homework/archive/HW18.pdf) |
 | <a id='18'>18</a> | 9 | [B&B TSP1](homework/HW19.md) |
-| <a id='19'>19</a> | 8 | [B&B TSP2](homework/TSP2.md) |
-| <a id='20'>20</a> | 9 | 8.1 (7), 8.3 (3) |
+| <a id='19'>19</a> | 9 | [B&B TSP2](homework/TSP2.md) |
+| <a id='20'>20</a> | 8 | 8.1 (7), 8.3 (3) |
 | <a id='21'>21</a> | 9 | [Local Search](homework/Local.md) |
-| <a id='22'>22</a> | 9 | [Genetic Algorithms](homework/GA.pdf) |
+| <a id='22'>22</a> |  | [Genetic Algorithms](homework/GA.pdf) |
