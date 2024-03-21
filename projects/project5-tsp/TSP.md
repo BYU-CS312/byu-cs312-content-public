@@ -57,7 +57,7 @@ have any correlation with reality.*
 8. [5] Discuss the mechanisms you tried and how effective they were in getting the state space search to dig deeper and find more solutions early.
 
 
-#### Notes
+#### Debug Examples
 
 To aid in debugging here are some results against which you can compare. We ran 5 trials for each in hard mode (a different set of missing edges each time) and reported the medians (ranges in brackets for times and total nodes).  
 
