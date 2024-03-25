@@ -44,7 +44,7 @@ This project is intended both to give you a little bit more practice and to help
 
 ## Project Description
 
-This project will consist of a set of 12 LeetCode problems of which **you will need to complete at least 6, which can include only one Easy one**. 
+This project will consist of a set of 12 LeetCode problems of which **you will need to complete at least 6, which can include at most one Easy one**. 
 
 The specific problems you may choose from are:
 
@@ -95,7 +95,7 @@ If you are unable to attend class that day, or have not turned in Part A by then
 
 ### Extra Credit [20 pts]
 
-You may choose to solve an additional problems for 5 points of extra credit each. For the extra credit, you only need to solve the problem in LeetCode; you are not required to discuss your solution nor provide a report (though you are welcome to do so). 
+You may choose to solve an additional 4 problems for 5 points of extra credit each. For the extra credit, you only need to solve the problem in LeetCode; you are not required to discuss your solution nor provide a report (though you are welcome to do so). 
 
 ### FAQs
 
