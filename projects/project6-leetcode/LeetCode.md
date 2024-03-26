@@ -84,18 +84,18 @@ Please, **do not look at solutions**, on LeetCode or other websites, nor at a cl
 Turn in a PDF that includes the following for each problem (up to six) that you solve:
 
 1. Your source code (from part A)
-2. [6 pts] Provide a brief analysis of the time and space complexity of your solution
+2. [6 pts] Provide a brief analysis of the time and space complexity of your solution and which Problem Solving Tools from the class you used.
 3. [4 pts] Meet with another student in the class that solved the same problem and compare your solutions and problem solving strategies. Then provide a brief report (e.g. one paragraph per problem) describing what you learned and discussed.
 
-In addition, provide a Conclusion section at the end of the PDF [4 pts] that highlights the overall lessons learned from this project. What topics in the class were most helpful? This need not be more than a paragraph, but should show 
+In addition, provide a Conclusion section at the end of the PDF [4 pts] that highlights the overall lessons learned from this project. What topics in the class were most helpful? This need not be more than a paragraph, but should offer insights you had from the project.
 
-To facilitate this part of the project, we will be using lecture time during class on **April 11**. If you are present in class that day, you will have time to discuss most, if not all, of the six problems you need to have solved with other students during class and will only need to write the report as homework.
+To facilitate #3, we will be using lecture time during class on **April 11**. If you are present in class that day, you will have time to discuss most, if not all, of the six problems you need to have solved with other students during class.
 
 If you are unable to attend class that day, or have not turned in Part A by then, you will be responsible for making time and finding other students to meet with to discuss your solutions.
 
-### Extra Credit [20 pts]
+### Extra Credit [30 pts]
 
-You may choose to solve an additional 4 problems for 5 points of extra credit each. For the extra credit, you only need to solve the problem in LeetCode; you are not required to discuss your solution nor provide a report (though you are welcome to do so). 
+You may choose to solve the additional problems for 5 points of extra credit each. For the extra credit, you do not need to discuss with another student in the class; turn in just the code and complexity analysis.
 
 ### FAQs
 
