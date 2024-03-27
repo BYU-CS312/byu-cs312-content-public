@@ -85,7 +85,7 @@ Turn in a PDF that includes the following for each problem (up to six) that you 
 
 1. Your source code (from part A)
 2. [6 pts] Provide a brief analysis of the time and space complexity of your solution and which Problem Solving Tools from the class you used.
-3. [4 pts] Meet with another student in the class that solved the same problem and compare your solutions and problem solving strategies. Then provide a brief report (e.g. one paragraph per problem) describing what you learned and discussed.
+3. [4 pts] Meet with another student in the class that solved the same problem and compare your solutions and problem solving strategies. For the 6 problems, please meet with at least 3 other students (for example, "I compared problems 1, 2, and 4 with student A, and problems 3, 5, and 6 with student B..."). Then provide a brief report (e.g. one paragraph per problem) describing what you learned and discussed.
 
 In addition, provide a Conclusion section at the end of the PDF [4 pts] that highlights the overall lessons learned from this project. What topics in the class were most helpful? This need not be more than a paragraph, but should offer insights you had from the project.
 
