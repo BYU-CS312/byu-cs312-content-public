@@ -44,7 +44,7 @@ This project is intended both to give you a little bit more practice and to help
 
 ## Project Description
 
-This project will consist of a set of 12 LeetCode problems of which **you will need to complete at least 6, which can include at most one Easy one**. 
+This project will consist of a set of 12 LeetCode problems of which **you will need to complete at least 6**. 
 
 The specific problems you may choose from are:
 
@@ -71,45 +71,43 @@ For *each* problem that you select, do the following:
 
 1. [6 pts] Solve the problem in LeetCode
 
-Part A is due before Part B - see Learning Suite for the exact date and time. 
+Part A is due before Part B. Please review the [course schedule](../../schedule.md) to be clear on the deadlines. 
 
-To submit part A, use this google form: [CS312 - Project 6 - LeetCode Problems](https://forms.gle/XJWGTqaCaMVikzZB6)
+To submit part A, use this google form: [CS312 - Project 6 - LeetCode Problems](https://docs.google.com/forms/d/e/1FAIpQLSdS6C6Y76yFSa7RbUvsUoz4Z5Hvtt9pq3UOD_0r-90oEa41ZQ/viewform)
 
 Be sure to update your **submission** links, and not the problem description link (i.e. when someone clicks your link, they should go straight to the page that shows your code and the accepted/rejected status).
 
 Please, **do not look at solutions**, on LeetCode or other websites, nor at a classmate’s solution, until **after** you have solved a given problem. If you’re stuck, you can refer to the hints below, but you’re encouraged to try the problem on your own before looking at the hints. If with the hints you’re still stuck, you can reach out to the TAs or to your instructor.
 
-### Part B [64 pts]
+### Part B [60 pts]
 
 Turn in a PDF that includes the following for each problem (up to six) that you solve:
 
 1. Your source code (from part A)
-2. [6 pts] Provide a brief analysis of the time and space complexity of your solution and which Problem Solving Tools from the class you used.
-3. [4 pts] Meet with another student in the class that solved the same problem and compare your solutions and problem solving strategies. For the 6 problems, please meet with at least 3 other students (for example, "I compared problems 1, 2, and 4 with student A, and problems 3, 5, and 6 with student B..."). Then provide a brief report (e.g. one paragraph per problem) describing what you learned and discussed.
+1. [6 pts] Provide a brief analysis of the time and space complexity of your solution
+2. [4 pts] Meet with another student in the class that solved the same problem and compare your solutions and problem solving strategies. Then provide a brief report (e.g. one paragraph per problem) describing what you learned and discussed.
 
-In addition, provide a Conclusion section at the end of the PDF [4 pts] that highlights the overall lessons learned from this project. What topics in the class were most helpful? This need not be more than a paragraph, but should offer insights you had from the project.
+To facilitate this part of the project, we will be using lecture time during the last week of class to discuss solutions (please see the [course schedule](../../schedule.md) for the specific date). If you are present in class that day, you will have time to discuss most, if not all, of the six problems you need to have solved with other students during class and will only need to write the report as homework.
 
-To facilitate #3, we will be using lecture time during class on **April 11**. If you are present in class that day, you will have time to discuss most, if not all, of the six problems you need to have solved with other students during class.
-
-If you are unable to attend class that day, or have not turned in Part A by then, you will be responsible for making time and finding other students to meet with to discuss your solutions.
+If you are unable to attend class that day, you will be responsible for making time and finding other students to meet with to discuss your solutions.
 
 ### Extra Credit [30 pts]
 
-You may choose to solve the additional problems for 5 points of extra credit each. All extra credit code msut be submitted as with Part A.  For the extra credit, you do not need to discuss with another student in the class but you do need to include the complexity analysis with your submission of Part B.
+You may choose to solve the remaining 6 problems for 5 points of extra credit each. For the extra credit, you only need to solve the problem in LeetCode; you are not required to discuss your solution nor provide a report (though you are welcome to do so). 
 
 ### FAQs
 
 Q1.  How fast does our solution need to run?
 
-A1.  Your solution needs to be accepted by LeetCode. Some LeetCode problems are carefully designed such that inefficient algorithms will timeout, but reasonably efficient algorithms will pass (e.g. a quadratic sort will fail, but an $n \log n$ sort will pass).
+A1.  Your solution needs to be accepted by LeetCode. Some LeetCode problems are carefully designed such that inefficient algorithms will timeout, but reasonably efficient algorithms will pass (e.g. a quadratic sort will fail, but an $n \log n$ sort will pass). I don't know that they publish the time limit, either per problem or globally, but after solving a problem, you can see the runtime distribution of successful submissions for each problem, for any given language. I’m happy to share that info for the problems I’ve solved (almost all with python3).
 
 Q2.  When reviewing solutions with each other, do we just discuss Big-O?
 
-A2.  No, please discuss each other’s code! (After both having solved the problem)
+A2.  No, please discuss each other’s code!  =)  (After both having solved the problem)
 
 Q3.  Do we need to use Python3?
 
-A3.  No, you’re welcome to use any of the languages supported for a given problem.  The purpose of these is for you to practice using algorithms to solve the problems, language is totally secondary. However, the TAs and instructors are less likely to be helpful in debugging if you don't use Python.
+A3.  No, you’re welcome to use any of the languages supported for a given problem.  The purpose of these is for you to practice using algorithms to solve the problems, language is totally secondary.
 
 Q4.  Does our code have to be discussed with someone in the class, or could it be discussed with someone else?
 
@@ -117,7 +115,7 @@ A4.  Please discuss with someone else from class -- they will have solved the pr
 
 Q5.  What if I've already done one of the problems on the specified list?
 
-A5. We've specified a list of 12 problems in hopes to provide you with alternatives, both in case you get stuck on one or if you happen to have already done some of them.  If you've already done one or more problems, please choose among the rest of them on the specified list (the TAs are familiar with these problems and we have hints for solving those).  In the event that you solve all of the problems and still need or want more to get the credit you want, see your instrcutor.
+A5. We've specified a list of 12 problems in hopes to provide you with alternatives, both in case you get stuck on one or if you happen to have already done some of them.  If you've already done one or more problems, please choose among the rest of them on the specified list (the TAs are familiar with these problems and we have hints for solving those).  In the event that you solve all of the problems and still need or want more to get the credit you want (whether you want the minimum 6 but have already done 7+ of them, or, if you're trying to earn extra credit by solving N total, but have already solved 12-N+1 or more...) you may select any LeetCode **medium** difficulty problems that have an acceptance rate of less than 50% and use those.  You may substitute problems *if and only if* you have completed (now or previously) all of the problems on the specified list.
 
 ### Hints
 
