@@ -95,7 +95,7 @@ If you are unable to attend class that day, or have not turned in Part A by then
 
 ### Extra Credit [30 pts]
 
-You may choose to solve the additional problems for 5 points of extra credit each. All extra credit code msut be submitted as with Part A.  For the extra credit, you do not need to discuss with another student in the class but you do need to include the complexity analysis with your submission of Part B.
+You may choose to solve the additional problems for 5 points of extra credit each. All extra credit code must be submitted with Part A early submission.  For the extra credit, you do not need to discuss with another student, but you do need to include the complexity analysis with your submission of Part B.
 
 ### FAQs
 
