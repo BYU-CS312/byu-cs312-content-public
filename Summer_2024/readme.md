@@ -15,7 +15,7 @@
 
 | Instructor | Office | Office Hours |
 | --- | --- | --- |
-| **Spencer Low** | TMCB TBA | By appointment (DM on Discord please) |
+| **Spencer Low** | TMCB 256 | By appointment (DM on Discord please) |
 
 
 ## Teaching Assistants
@@ -24,20 +24,22 @@ Office: **1156 TMCB**
 
 ### Hours 
 
-| Time  | Monday         | Tuesday                                  | Wednesday      | Thursday                                 | Friday      | 
-|-------|----------------|------------------------------------------|----------------|------------------------------------------|------------ | 
-| 9:00  |                | McKayla (Remote), Hunter, Logan (Remote) |                | Logan (Remote), McKayla (Remote), Hunter |             | 
-| 10:00 |                | Logan (Remote)                           |                | Logan (Remote), Hunter                   |             | 
-| 11:00 | TA Meeting     | Devotional                               | Caden          | Logan (Remote), Hunter                   | Caden, Kai  | 
-| 12:00 | Juliana, Caden | Juliana                                  | Juliana, Caden | Juliana                                  | Caden, Kai  | 
-| 1:00  | Juliana, Caden | Juliana, Hunter                          | Juliana, Caden | Juliana                                  | Caden, Kai  | 
-| 2:00  | Kai            | Abel, Hunter, Kai                        | Kai            | Abel, Kai                                | Kai         | 
-| 3:00  | Kai            |                                          | Kai            | Jack                                     | Kai         | 
-| 4:00  | Abel, Kai      | Jack, Kai                                | Abel, Kai      | Jack, Kai                                | Abel        | 
-| 5:00  | Abel, Hunter   | Jack                                     | Abel, Hunter   | Jack                                     | Abel        | 
-| 6:00  | Elijah         | Elijah                                   | Elijah,Hunter  | Elijah                                   | Abel        | 
-| 7:00  | McKayla (Remote) | McKayla (Remote)                     | McKayla (Remote) | McKayla (Remote)                         |         |
-| 8:00  | McKayla (Remote) | McKayla (Remote)                     | McKayla (Remote) | McKayla (Remote)                         |         | 
+* TA's may be available on Saturday but requires an appointment.
+
+| Time  | Monday         | Tuesday        | Wednesday      | Thursday       | Friday      |
+|-------|----------------|----------------|----------------|----------------|-------------|
+| 9:00  |                |                |                |                |             |
+| 10:00 |                |                |                |                |             |
+| 11:00 |  Matthew       |  Matthew       |  Matthew       |  Matthew       |  Matthew    |
+| 12:00 |  Matthew       |  Matthew       |  Matthew       |  Matthew       |  Matthew    |
+| 1:00  |  Jaycelyn      |  Jaycelyn      |  Jaycelyn      |  Jaycelyn      |  Jaycelyn   |
+| 2:00  |  Jaycelyn      |  Jaycelyn      |  Jaycelyn      |  Jaycelyn      |  Jaycelyn   |
+| 3:00  |                |                |                |                |             |
+| 4:00  |                |                |                |                |             |
+| 5:00  |                |                |                |                |             |
+| 6:00  |                |                |                |                |             |
+| 7:00  |                |                |                |                |             |
+| 8:00  |                |                |                |                |             |
 
 ## Class Time and Place
 
