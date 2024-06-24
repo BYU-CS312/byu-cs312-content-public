@@ -1,0 +1,1 @@
+PYQT_VER = 'PYQT5'
