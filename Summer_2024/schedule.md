@@ -3,8 +3,7 @@
 
 | Date | Class Period & Lecture Topic | Reading (before class) | Assignments |
 | --- | --- | --- | --- |
-| June 24 | 1. What is the class about and how will it work?  (Syllabus, policies, business, motivation) **Algorithm Essentials** (Big-O and basic arithmetic) | Syllabus , [HW1](homework.md#1) (due June 24) |   |
-| June 24 | 2. **Algorithm Essentials**  | Chapters 0, 1 - pp. 1-15 | [Install Python](./installing-python.md), [Join Discord](./discord.md) |
+| June 24 | 1. What is the class about and how will it work?  (Syllabus, policies, business, motivation) 2. **Algorithm Essentials** (Big-O and basic arithmetic) | Syllabus | [Install Python](./installing-python.md), [Join Discord](./discord.md), [HW1](homework.md#1) (due June 25) | 
 | June 25 | 3. Algorithm Essentials (Modular arithmetic and Primality) | Chapter 1 - pp. 16-30 | [HW2](homework.md#2) (due Sept 13), [Project1: Primality Tester](projects/project1-fermat/Fermat.md) (design experience due Sept 14, project due Sept 21) |
 | June 26 | 4.homework.md Algorithm Essentials (Cryptography and Euclid) | pp. 30-38 | [HW3](homework.md#3) (due Sept 18) |
 | June 27 | 5. **Divide and Conquer** (Multiplication, Recurrence Relations, Convex Hull) | Chapter 2 - pp. 45-50 | [HW4](homework.md#4) (due Sept 20) |
