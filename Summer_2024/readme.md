@@ -5,7 +5,7 @@
 
 ## Quick links
 
-- [Canvas](https://byu.instructure.com/courses/22233)
+- [Canvas](https://byu.instructure.com/courses/26124)
 - [Schedule](schedule.md)
 - [Homework Assignments](assignments.md)
 - [Projects](projects/project-instructions.md)
@@ -15,8 +15,8 @@
 
 | Instructor | Office | Office Hours |
 | --- | --- | --- |
-| **Ryan Farrell** | 2216 TMCB | By appointment (DM on Discord please) |
-| **Gordon Bean** | 2252 TMCB | https://calendly.com/byu-cs-gbean/office-hours |
+| **Spencer Low** | TMCB TBA | By appointment (DM on Discord please) |
+
 
 ## Teaching Assistants
 
@@ -41,9 +41,7 @@ Office: **1156 TMCB**
 
 ## Class Time and Place
 
-- Section 001: 2:00-3:15pm Tu/Th **C215 ESC**
-- Section 002: 3:30-4:45pm Tu/Th **C215 ESC**
-- Section 003: 9:30-10:45am Tu/Th **B037 JFSB**
+- Section 001: 9:30-10:45 AM Mon/Tue/Wed/Thur **TMCB 120**
 
 **[Discord Server](discord.md)**
 
