@@ -20,7 +20,7 @@
 
 ## Teaching Assistants
 
-Office: **1156 TMCB**
+Office: **1152 TMCB**
 
 ### Hours 
 
