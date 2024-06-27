@@ -28,7 +28,7 @@
 | July 30 | 20. **Intelligent Search** (Backtracking and Branch & Bound) | Chapter 9 - pp. 271-276 | [HW19](homework.md#19) (due July 31) |
 | July 31 | 21. Intelligent Search (More Branch & Bound) Project 5 Discussion  | Chapter 9 - pp. 271-276 + [extra B&B TSP material](misc/TSPHorowitz.pdf) | [HW20](homework.md#20) (due August 5) (2nd problem is extra-credit), [Project5: TSP with Branch and Bound](projects/project5-tsp/TSP.md) (design experience due July 25, project due July 2), [Project6: LeetCode Problems](projects/project6-leetcode/LeetCode.md) (Part A due July 9, Part B due July 12) |
 | August 1 | 22. Intelligent Search (NP-completeness) | Chapter 8 pp. 232-247  |  |
-| August 5 | 23.  Intelligent Search (Approximation and Local Search) | Chapter 9 - pp. 276-293 | [HW21](homework.md#21) (due Dec 4) |
+| August 5 | 23.  Intelligent Search (Approximation and Local Search) | Chapter 9 - pp. 276-293 | [HW21](homework.md#21) (due August 6) |
 | August 6 | 24. Advanced Algorithms (Randomized Algorithms) | Sec. 2.4 - Boxes on pp. 29, 56, 140 | |
 | August 12 | In-class discussion of Project 6 solutions |  |   |
 | August 12 | Last Day of Class |  |  |
