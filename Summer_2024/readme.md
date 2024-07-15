@@ -123,7 +123,7 @@ There will be one mid-term (administered in the [testing center](https://testing
  If you put in the time to understand the learning labs and programming assignments, the tests should not be too difficult. 
  The final will be largely weighted toward material not covered on the midterm; however, it will be
  comprehensive in that it will assume you understand the material covered throughout the course.
- A brief study guide for the midterm exam can be found [here](misc/midterm_study_guide.pdf), and one
+ A brief study guide for the midterm exam can be found [here](./midterm_study_guide.pdf), and one
  for the final exam can be found [here](misc/final_study_guide.pdf).
 
 
