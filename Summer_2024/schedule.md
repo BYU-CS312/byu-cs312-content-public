@@ -18,7 +18,6 @@
 | July 15 | **Review / Why Consider Grad School?**  |  |  |
 | July 16 | **Review** |  |  |
 | <td colspan=2>**Midterm (@Testing Center, July 18-22[8am]-23[8pm])** </td> <td> [Study Guide](./midterm_study_guide.pdf) </td> |
-
 | July 17 | 15. **Dynamic Programming** (Longest Increasing Subsequence and Edit Distance) | Chapter 6 - pp. 156-164 | [HW13](homework.md#13) (due July 18) |
 | July 18 | **NO CLASS. Take Midterm.**|  |  |
 | July 22 | 16. Dynamic Programming (Project 4 and Knapsack) | pp. 164-171 | [HW14](homework.md#14) (due July 23), [Project4: Gene Sequencing](projects/project4-gene-sequencing/GeneSequencing.md) (design experience due July 22, project due July 28) |
