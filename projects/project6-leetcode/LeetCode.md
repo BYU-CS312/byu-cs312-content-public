@@ -73,7 +73,7 @@ For *each* problem that you select, do the following:
 
 Part A is due before Part B - see Learning Suite for the exact date and time. 
 
-To submit part A, use this google form: [CS312 - Project 6 - LeetCode Problems]([https://forms.gle/XJWGTqaCaMVikzZB6](https://docs.google.com/forms/d/e/1FAIpQLSejgQiUVBvIoMgmteQEnp3X0XyrtfYzf6XlZBncWZHS0hxJGA/viewform?usp=sf_link))
+To submit part A, use this google form: [CS312 - Project 6 - LeetCode Problems](https://forms.gle/q24vAHcYkFFjLDJC8)
 
 Be sure to update your **submission** links, and not the problem description link (i.e. when someone clicks your link, they should go straight to the page that shows your code and the accepted/rejected status).
 
